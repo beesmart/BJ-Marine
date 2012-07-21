@@ -1,0 +1,71 @@
+@import "bootstrap/bootstrap.less";
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+@import "bootstrap/responsive.less";
+@import "bootswatch.less";
+@import "docs.less";
+
+@dark-blue: #1D4986;
+@dark-red: #B72C31;
+@soft-grey: #EFEFEF;
+@dark-red: #B72C31;
+@grey: #CCC;
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+/* Custom Bootstrap / Bootswatch overrides */
+.hero-unit {
+	padding: 40px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+/* Header */
+.navbar .brand {padding: 10px 20px 10px;}
+@media (max-width: 979px) {
+	.navbar .brand {
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 0 0 0 -5px;
+	}
+}
+/* Body Container (.main) */
+.main .page-header {
+	min-height: 175px;
+}
+
+
+/* Footer */
+.footer .row{
+	margin: 12px 0 0 0;
+	border-top: 2px solid @dark-blue;
+}
+	.footer .row .span4:first-child {
+		margin-left: 65px;
+	}
+		.locality a{
+			color: @dark-red;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 15px;
+			margin: 4px 0 -4px;
+		}
+
+/* Homepage */
+.feature-images  img {
+	padding: 5px;
+	border: solid 1px @soft-grey;
+}
+.feature-images  a:hover img {
+	border: solid 1px @grey;
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+}
+
+/* Utils */
+.text-center{text-align: center;}
