@@ -3,20 +3,16 @@
 		<div class="row">
 			<div class="span4">
 				<address>
-					<div class="locality"><a href="/about/offices/dublin.php">Dublin</a></div>
-					<div class="street">Malahide Marina</div>
+					<div class="locality"><a href="/about/offices/dublin.php">Ireland</a></div>
 					<div class="city">Dublin</div>
-					<div class="country-name">Ireland</div>
 					<div class="tel">(+353) 1 8061560</div>
 					<a class="email" href="mailto:sales@bjmarine.net">sales@bjmarine.net</a>
 				</address>
 			</div>
 			<div class="span4">
 				<address>
-					<div class="locality"><a href="/about/offices/belfast.php">Belfast</a></div>
-					<div class="street">Bangor Marina</div>
-					<div class="county">Co. Down</div>
-					<div class="country-name">N. Ireland</div>
+					<div class="locality"><a href="/about/offices/belfast.php">United Kingdom</a></div>
+					<div class="city">Belfast</div>
 					<div class="tel">(+44) 2891 271434</div>
 					<a class="email" href="mailto:sales@bjmarine.net">sales@bjmarine.net</a>
 				</address>
@@ -24,9 +20,7 @@
 			<div class="span3">
 				<address>
 					<div class="locality"><a href="/about/offices/mediterranean.php">Mediterranean</a></div>
-					<div class="region">Grand Harbour Marina</div>
 					<div class="country-name">Malta</div>
-					<div>&nbsp;</div>
 					<div class="tel">(+356) 27019356</div>
 					<a class="email" href="mailto:sales@bjmarine.net">sales@bjmarine.net</a>
 				</address>

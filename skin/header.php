@@ -42,6 +42,19 @@
 
 
 	<div class="main container">
+		<div class="row">
+			<div class="span4">
+				<a class="brand" href="#"><img src="/img/logo.png" title="BJ Marine" alt="BJ Marine Logo" /></a>
+			</div>
+			<div class="span8">
+				<ul class="title-locations">
+					<li>Ireland</li>
+					<li>UK</li>
+					<li>Mediterranean</li>
+				</ul>
+			</div>
+		</div>
+
 		<div class="navbar">
 			<div class="navbar-inner">
 				<div class="container">
@@ -50,7 +63,6 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="#"><img src="/img/logo.png" title="BJ Marine" alt="BJ Marine Logo" /></a>
 					<div class="nav-collapse">
 						<?php include 'menu.php'; ?>
 					</div><!--/.nav-collapse -->

@@ -4,7 +4,7 @@
 ?>
 
 	<header class="page-header" id="overview">
-		<h1>At the heart of the Mediterranean, Malta</h1>
+		<h1>At the heart of the Mediterranean</h1>
 	</header>
 
 	<section>

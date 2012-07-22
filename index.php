@@ -7,12 +7,11 @@
 		<div class="row-fluid">
 			<div class="span9">
 				<p>
-					Welcome to BJ Marine, the leading <a href="boats/new/">new boat sales</a> and <a href="boats/used/">used boat sales</a> specialists. We have a full range of new sailing boats, <a href="boats/used/sail.php">used sailing yachts</a>, new power boats and <a href="boats/used/power.php">used motor boats for sale</a>.
+					Welcome to BJ Marine, the leading <a href="boats/new/index.php">new boat sales</a> and <a href="boats/used/index.php">used boat sales</a> specialists. We have a full range of new sailing boats, <a href="boats/used/sail.php">used sailing yachts</a>, new power boats and <a href="boats/used/power.php">used motor boats for sale</a>.
 				</p>
 				<p>
 					With our office network in <a href="about/offices/dublin.php">Dublin</a>, <a href="about/offices/belfast.php">Belfast</a> and the <a href="about/offices/mediterranean.php">Mediterranean</a> we can be your one stop shop for expert help whether you are buying a boat or selling.
 				</p>
-				<p><a class="btn btn-primary">Learn more about us &raquo;</a></p>
 			</div>
 			<div class="span3 text-center">
 				<a href="boats/brokerage/sellyourboat.php">

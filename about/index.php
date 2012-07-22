@@ -13,7 +13,7 @@
 			<div class="span12">
 				<p>With over 35 years dedicated to professional service in the marine leisure industry, BJ Marine are the leading boat brokerage business.</p>
 				<p>
-					We specialise in <a href="/boats/new/">new</a> and <a href="/boats/brokerage.php">used boat sales</a> with offices at prime boating locations in <a href="/about/offices/dublin.php">Dublin</a>, <a href="/about/offices/belfast.php">Belfast</a> and <a href="/about/offices/mediterranean.php">Malta</a>. 
+					We specialise in <a href="/boats/new/index.php">new</a> and <a href="/boats/brokerage.php">used boat sales</a> with offices at prime boating locations in <a href="/about/offices/dublin.php">Dublin</a>, <a href="/about/offices/belfast.php">Belfast</a> and <a href="/about/offices/mediterranean.php">Malta</a>. 
 				</p>
 			</div>
 		</div>

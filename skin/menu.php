@@ -37,9 +37,9 @@
 
 	$linksLeft = array(
 		array("label" => "Home", "url" => "/index.php", "activeTag" => "home"),
-		array("label" => "New Boats", "url" => "/boats/new/index.php", "activeTag" => "newboat"),
-		array("label" => "Used Boats", "url" => "/boats/used/index.php", "activeTag" => "usedboat"),
-		array("label" => "Sell Your Boat", "url" => "/boats/brokerage/index.php", "activeTag" => "sellboat")
+		array("label" => "New Boats", "url" => "/boats/new/index.php", "activeTag" => "boats-new"),
+		array("label" => "Used Boats", "url" => "/boats/used/index.php", "activeTag" => "boats-used"),
+		array("label" => "Sell Your Boat", "url" => "/boats/brokerage/index.php", "activeTag" => "boats-brokerage")
 	);
 
 	$linksRight = array(
@@ -51,7 +51,7 @@
 				array("label" => "Our Services", "url" => "/about/services.php", "activeTag" => "about-services")
 			)
 		),
-		array("label" => "Contact", "url" => "/contact/", "activeTag" => "contact")
+		array("label" => "Contact", "url" => "/contact.php", "activeTag" => "contact")
 	);
 
 	echo writeMenuItems($linksLeft);
