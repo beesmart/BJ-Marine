@@ -7,13 +7,7 @@
 		<h2>New SeaRay Boats</h2>
 	</header>
 
-	<section>
-		<div class="row">
-			<div class="span12">
-				<p>Coming sooooooon...</p>
-			</div>
-		</div>
-	</section>
+	<iframe class="searayframe" scrolling="auto" src="http://www.searay.com/"></iframe>
 
 <?php include $_SERVER['DOCUMENT_ROOT'].'/skin/footer.php'; ?>
 

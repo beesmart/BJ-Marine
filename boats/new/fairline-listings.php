@@ -9,9 +9,15 @@
 
 	<section>
 		<div class="row">
-			<div class="span12">
-				<p>Coming sooooooon...</p>
+			<div class="span2">
+				<a href="/boats/new/beneteau-listings.php"><img src="/img/brands/beneteau/logo.jpg" title="Beneteau" alt="Beneteau Logo" data-hover /></a>
+				<a href="/boats/new/searay-listings.php"><img src="/img/brands/searay/logo.jpg" title="SeaRay" alt="SeaRay Logo" data-hover /></a>
+				<a href="/boats/new/fairline-listings.php"><img src="/img/brands/fairline/logo.jpg" title="Fairline" alt="Fairline Logo"  data-hover /></a>
 			</div>
+			<div class="span10">
+				<iframe class="fairlineframe" src="http://www.fairline.com/#/ireland/"></iframe>
+			</div>
+			<div
 		</div>
 	</section>
 
