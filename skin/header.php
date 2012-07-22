@@ -27,31 +27,32 @@
 	<!-- Use SimpLESS (Win/Linux/Mac) or LESS.app (Mac) to compile your .less files
 	to style.css, and replace the 2 lines above by this one:
 
-	<link rel="stylesheet/less" href="/less/style.less">
-	<script src="/js/libs/less-1.3.0.min.js"></script>
-
-	-->
 	<link rel="stylesheet" href="/css/style.css">
 
+	-->
+
+	<link rel="stylesheet/less" href="/less/style.less">
+	<script src="/js/libs/less-1.3.0.min.js"></script>
+	
 	<script src="/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 </head>
-<body data-spy="scroll" data-target=".subnav" data-offset="80" class="<? echo $_SESSION['page']; ?>">
+<body class="<? echo $_SESSION['page']; ?>">
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
-	<div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</a>
-				<a class="brand" href="#"><img src="/img/logo.png" title="BJ Marine" alt="BJ Marine Logo" /></a>
-				<div class="nav-collapse">
-					<?php include 'menu.php'; ?>
-				</div><!--/.nav-collapse -->
-			</div>
-		</div>
-	</div>
 
 	<div class="main container">
+		<div class="navbar">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="brand" href="#"><img src="/img/logo.png" title="BJ Marine" alt="BJ Marine Logo" /></a>
+					<div class="nav-collapse">
+						<?php include 'menu.php'; ?>
+					</div><!--/.nav-collapse -->
+				</div>
+			</div>
+		</div>

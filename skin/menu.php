@@ -45,10 +45,10 @@
 	$linksRight = array(
 		array("label" => "About", "url" => "", "activeTag" => "about",
 			"children" => array(
-				array("label" => "Our History", "url" => "/about/index.php", "activeTag" => "about"),
-				array("label" => "Our Team", "url" => "/ab/out/team.php", "activeTag" => "about"),
-				array("label" => "Our Offices", "url" => "about/offices/index.php", "activeTag" => "about"),
-				array("label" => "Our Services", "url" => "/about/services.php", "activeTag" => "about")
+				array("label" => "Our History", "url" => "/about/index.php", "activeTag" => "about:history"),
+				array("label" => "Our Team", "url" => "/about/team.php", "activeTag" => "about:team"),
+				array("label" => "Our Offices", "url" => "/about/offices/index.php", "activeTag" => "about:offices"),
+				array("label" => "Our Services", "url" => "/about/services.php", "activeTag" => "about:services")
 			)
 		),
 		array("label" => "Contact", "url" => "/contact/", "activeTag" => "contact")

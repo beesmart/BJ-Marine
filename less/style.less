@@ -1,12 +1,7 @@
 @import "bootstrap/bootstrap.less";
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
 
-@import "bootstrap/responsive.less";
+/*@import "bootstrap/responsive.less";*/
 @import "bootswatch.less";
-@import "docs.less";
 
 @dark-blue: #1D4986;
 @dark-red: #B72C31;
@@ -14,8 +9,13 @@ body {
 @dark-red: #B72C31;
 @grey: #CCC;
 /* ===== Primary Styles ========================================================
-   Author:
+   Author: Denis Hoctor
    ========================================================================== */
+body {
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 /* Custom Bootstrap / Bootswatch overrides */
 .hero-unit {
@@ -25,22 +25,13 @@ body {
 }
 
 /* Header */
-.navbar .brand {padding: 10px 20px 10px;}
-@media (max-width: 979px) {
-	.navbar .brand {
-		padding-left: 10px;
-		padding-right: 10px;
-		margin: 0 0 0 -5px;
-	}
-}
+.navbar .brand {padding: 9px 12px;}
+
 /* Body Container (.main) */
-.main .page-header {
-	min-height: 175px;
-}
 
 
 /* Footer */
-.footer .row{
+.footer .row {
 	margin: 12px 0 0 0;
 	border-top: 2px solid @dark-blue;
 }
@@ -52,7 +43,9 @@ body {
 			text-transform: uppercase;
 			text-decoration: none;
 			font-size: 15px;
-			margin: 4px 0 -4px;
+			font-weight:bold;
+			margin: 12px 0 2px;
+			display:inline-block;
 		}
 
 /* Homepage */
