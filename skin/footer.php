@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="span4">
 				<address>
-					<div class="locality"><a href="about/offices/dublin.php">Dublin</a></div>
+					<div class="locality"><a href="/about/offices/dublin.php">Dublin</a></div>
 					<div class="street">Malahide Marina</div>
 					<div class="city">Dublin</div>
 					<div class="country-name">Ireland</div>
@@ -13,7 +13,7 @@
 			</div>
 			<div class="span4">
 				<address>
-					<div class="locality"><a href="about/offices/belfast.php">Belfast</a></div>
+					<div class="locality"><a href="/about/offices/belfast.php">Belfast</a></div>
 					<div class="street">Bangor Marina</div>
 					<div class="county">Co. Down</div>
 					<div class="country-name">N. Ireland</div>
@@ -23,7 +23,7 @@
 			</div>
 			<div class="span3">
 				<address>
-					<div class="locality"><a href="about/offices/malta.php">Mediterranean</a></div>
+					<div class="locality"><a href="/about/offices/mediterranean.php">Mediterranean</a></div>
 					<div class="region">Grand Harbour Marina</div>
 					<div class="country-name">Malta</div>
 					<div>&nbsp;</div>
