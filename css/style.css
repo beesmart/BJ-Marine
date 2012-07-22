@@ -4393,6 +4393,7 @@ pre.prettyprint,
 body {
   padding-top: 0;
   padding-bottom: 40px;
+  overflow-y: scroll;
 }
 * {
   -moz-box-sizing: border-box;
@@ -4446,6 +4447,21 @@ body {
 /* Body Container (.main) */
 .main > section {
   margin-bottom: 36px;
+}
+/* New Boat Listings */
+.searayframe {
+  width: 1000px;
+  margin-left: -28px;
+  height: 800px;
+}
+.fairlineframe {
+  width: 100%;
+  height: 600px;
+}
+.beneteauframe {
+  width: 800px;
+  margin-left: -20px;
+  height: 1000px;
 }
 /* Footer */
 .footer .row {

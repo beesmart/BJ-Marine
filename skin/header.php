@@ -23,17 +23,9 @@
 	<meta name="Author" content="Denis Hoctor - denishoctor@gmail.com" />
 	<meta name="Robots" content="<? echo $_REQUEST['robots']; ?>" />
 
-	<meta name="viewport" content="width=device-width">
-	
-	<!-- Use SimpLESS (Win/Linux/Mac) or LESS.app (Mac) to compile your .less files
-	to style.css, and replace the 2 lines above by this one:
+	<meta name="viewport" content="width=940">
 
 	<link rel="stylesheet" href="/css/style.css">
-
-	-->
-
-	<link rel="stylesheet/less" href="/less/style.less">
-	<script src="/js/libs/less-1.3.0.min.js"></script>
 	
 	<script src="/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 </head>
