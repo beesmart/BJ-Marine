@@ -36,7 +36,7 @@
 	<div class="main container">
 		<div class="row">
 			<div class="span4">
-				<a class="brand" href="#"><img src="/img/logo.png" title="BJ Marine" alt="BJ Marine Logo" /></a>
+				<a class="brand" href="#"><img class="bj-logo" src="/img/logo.png" title="BJ Marine" alt="BJ Marine Logo" /></a>
 			</div>
 			<div class="span8">
 				<ul class="title-locations">

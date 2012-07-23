@@ -28,7 +28,7 @@
 				<p>We invite you visit any of our offices at Malahide Marina, Dublin, Bangor Marina, Belfast or Grand Harbour Marina, Malta where our experienced <a href="salesteam.php">sales team</a> will be happy to help you with your plans to buy or sell your boat. We offer you a comprehensive service from berthing right through to after care.</p>
 			</div>
 			<div class="span3">
-				<img src="/img/logo.png" />
+				<img class="bj-logo" src="/img/logo.png" />
 			</div>
 		</div>
 	</section>
@@ -40,7 +40,7 @@
 				<p>Beneteau is the world’s number 1 yacht builder and also has a hugely successful motor boat line up. The Oceanis and First ranges between them will fulfill your sailing dreams, whether it is distance cruising, winning regattas or day sailing you want to enjoy. The Antares, Flyer, Monte Carlo and Trawler ranges will suit every need of power boating.</p>
 			</div>
 			<div class="span3">
-				<img src="/img/brands/beneteau/logo.jpg" title="Beneteau" alt="Beneteau Logo" data-hover />
+				<a href="boats/new/beneteau-listing.php"><img class="brand-logo" src="/img/brands/beneteau/logo.jpg" title="Beneteau" alt="Beneteau Logo" data-hover /></a>
 			</div>
 		</div>
 	</section>
@@ -52,7 +52,7 @@
 				<p>Founded in 1959, SeaRay today is the world's largest manufacturer of superior quality pleasure boats with plants in three continents, producing more than 40 models ranging from 7m to 18m. No other pleasure boat manufacturer in the world offers such variety. The four families of Sea Ray products include <strong>Sport Boats</strong>, <strong>Sport Cruisers</strong>, <strong>Sport Yachts</strong>, and <strong>Yachts</strong>. <strong> SeaRay</a></strong> uses forward thinking to design some of the best built and most technologically advanced boats in the industry.</p>
 			</div>
 			<div class="span3">
-				<a href="boats/new/searay-listing.php"><img src="/img/brands/searay/logo.jpg" title="SeaRay" alt="SeaRay Logo" data-hover /></a>
+				<a href="boats/new/searay-listing.php"><img class="brand-logo" src="/img/brands/searay/logo.jpg" title="SeaRay" alt="SeaRay Logo" data-hover /></a>
 			</div>
 		</div>
 	</section>
@@ -64,7 +64,7 @@
 				<p>Fairline is a luxury motor yacht manufacturer and build a line-up of world class yachts that not only win many industry and press awards for their innovation and quality, but deliver matchless pleasure and enjoyment to their owners. They are an English motor yacht builder started in 1963 by Jack Newington, the company presently builds motor yachts in both its original Oundle base as well as Corby, Northamptonshire. BJ Marine is the sole distributor of the Fairline range of luxury Motor Yachts in Ireland.</p>
 			</div>
 			<div class="span3">
-				<a href="boats/new/fairline-listing.php"><img src="/img/brands/fairline/logo.jpg" title="Fairline" alt="Fairline Logo"  data-hover /></a>
+				<a href="boats/new/fairline-listing.php"><img class="brand-logo" src="/img/brands/fairline/logo.jpg" title="Fairline" alt="Fairline Logo"  data-hover /></a>
 			</div>
 		</div>
 	</section>
