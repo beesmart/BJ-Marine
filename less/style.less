@@ -1,0 +1,121 @@
+@import "bootstrap/bootstrap.less";
+@import "bootswatch.less";
+
+@dark-blue: #1D4986;
+@dark-red: #B72C31;
+@soft-grey: #EFEFEF;
+@dark-red: #B72C31;
+@grey: #CCC;
+/* ===== Primary Styles ========================================================
+   Author: Denis Hoctor
+   ========================================================================== */
+body {
+  padding-top: 0;
+  padding-bottom: 40px;
+  overflow-y: scroll;
+}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+/* Custom Bootstrap / Bootswatch overrides */
+.hero-unit {
+	padding: 40px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+/* Header */
+.brand {
+	padding: 9px 12px;
+	display: inline-block;
+}
+.navbar-inner {
+	min-height: 0;
+}
+.navbar .nav > li > a {
+	float: none;
+	padding: 8px 10px 10px;
+}
+
+.title-locations {
+	padding: 24px 36px 13px;
+}
+	.title-locations li:before {
+		content: '';
+		border-radius: 50%;
+		width: 8px;
+		height: 8px;
+		background: #1D4986;
+		position: absolute;
+		top: 6px;
+		left: 8px;
+	}
+
+	.title-locations li {
+		font-size: 28px;
+		color: #1D4986;
+		display: inline-block;
+		font-weight: bold;
+		text-transform: uppercase;
+		list-style-type: circle;
+		padding-left: 28px;
+		position: relative;
+	}
+	.title-locations li:first-child:before{
+		display:none;
+	}
+/* Body Container (.main) */
+.main > section{margin-bottom:36px;}
+
+/* New Boat Listings */
+.searayframe {
+	width: 1000px;
+	margin-left: -28px;
+	height: 800px;
+}
+.fairlineframe {
+	width: 100%;
+	height: 600px;
+}
+.beneteauframe {
+	width: 800px;
+	margin-left: -20px;
+	height: 1000px;
+}
+/* Footer */
+.footer .row {
+	margin: 12px 0 0 0;
+	border-top: 2px solid @dark-blue;
+}
+	.footer .row .span4:first-child {
+		margin-left: 65px;
+	}
+		.locality a{
+			color: @dark-red;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 15px;
+			font-weight:bold;
+			margin: 12px 0 2px;
+			display:inline-block;
+		}
+
+/* Image Border and pop hover style */
+.feature-images  img {
+	padding: 5px;
+	border: solid 1px @soft-grey;
+}
+.feature-images  a:hover img {
+	border: solid 1px @grey;
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+}
+
+/* Utils */
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+.align-center{
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
