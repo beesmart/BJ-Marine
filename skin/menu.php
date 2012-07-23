@@ -2,7 +2,7 @@
 
 	function getMenuItem($menuItem) {
 		$item = '';
-		if($menuItem['children']) {
+		if(isset($menuItem) && is_array($menuItem) && array_key_exists('children', $menuItem)) {
 			if(strpos($_REQUEST['page'],$menuItem['activeTag']) !== false) {
 				$item .= '<li class="active dropdown">';
 			} else {
@@ -25,7 +25,7 @@
 	}
 
 	function writeMenuItems($menuItems, $ulClass = 'nav') {
-		$menu .= '<ul class="'.$ulClass.'">';
+		$menu = '<ul class="'.$ulClass.'">';
 
 		foreach ($menuItems as $menuItem) {
 			$menu .= getMenuItem($menuItem);

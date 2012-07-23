@@ -42,7 +42,7 @@
 <script src="/js/script.js"></script>
 <!-- end scripts-->
 
-<?php if(strpos($_SERVER[HTTP_HOST],'new.bjmarine.dev') === false) { ?>
+<?php if(strpos($_SERVER['HTTP_HOST'],'new.bjmarine.dev') === false) { ?>
 <script>
 	var _gaq=[['_setAccount','UA-1206900-2'],['_trackPageview']];
 	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

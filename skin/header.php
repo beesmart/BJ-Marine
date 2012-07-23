@@ -15,13 +15,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title><? echo $_REQUEST['title']; ?></title>
+	<title><?php echo $_REQUEST['title']; ?></title>
 
-	<meta name="Description" content="<? echo $_REQUEST['description']; ?>" />
-	<meta name="Keywords" content="<? echo $_REQUEST['Keywords']; ?>" />
+	<meta name="Description" content="<?php echo $_REQUEST['description']; ?>" />
+	<meta name="Keywords" content="<?php echo $_REQUEST['Keywords']; ?>" />
 
 	<meta name="Author" content="Denis Hoctor - denishoctor@gmail.com" />
-	<meta name="Robots" content="<? echo $_REQUEST['robots']; ?>" />
+	<meta name="Robots" content="<?php echo $_REQUEST['robots']; ?>" />
 
 	<meta name="viewport" content="width=940">
 
@@ -29,9 +29,8 @@
 	
 	<script src="/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 </head>
-<body class="<? echo $_REQUEST['page']; ?>">
+<body class="<?php echo $_REQUEST['page']; ?>">
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-
 
 	<div class="main container">
 		<div class="row">

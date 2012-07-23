@@ -25,25 +25,34 @@
 	</div>
 
 	<div class="row-fluid feature-images">
-		<div class="span3">
+		<div class="span4">
 			<a href="boats/new/beneteau-listings.php">
-				<img src="img/brands/beneteau/yacht-squared.jpg" data-hover />
+				<img src="img/brands/beneteau/yacht-squared.jpg" title="New Beneteau Yachts" alt="Beneteau Yacht" data-hover />
 			</a>
 		</div>
-		<div class="span3">
+		<div class="span4">
 			<a href="boats/new/beneteau-listings.php">
-				<img src="img/brands/beneteau/power-squared.jpg" data-hover />
+				<img src="img/brands/beneteau/power-squared.jpg" title="New Beneteau Power Boats" alt="Beneteau Power Boat" data-hover />
 			</a>
 		</div>
-		<div class="span3">
+		<div class="span4">
 			<a href="boats/new/fairline-listings.php">
-				<img src="img/brands/fairline/power-squared.jpg" data-hover />
+				<img src="img/brands/fairline/power-squared.jpg" title="New Fairline Power Boats" alt="Fairline Power Boat" data-hover />
 			</a>
 		</div>
-		<div class="span3">
+	</div>
+
+	<div class="row-fluid feature-images">
+		<div class="span4">
 			<a href="boats/new/searay-listings.php">
-				<img src="img/brands/searay/power-squared.jpg" data-hover />
+				<img src="img/brands/searay/power-squared.jpg" title="New SeaRay Power Boats" alt="SeaRay Power Boat" data-hover />
 			</a>
+		</div>
+		<div class="span4">
+			<img src="img/brands/cranchi/power-squared.jpg" title="New Cranchi Power Boats" alt="Cranchi Power Boat" />
+		</div>
+		<div class="span4">
+			<img src="img/brands/greenline/power-squared.jpg" title="New Greenline Power Boats" alt="Greenline Power Boat" />
 		</div>
 	</div>
 
