@@ -38,7 +38,7 @@
 				<p>So if you have decided to sell your boat please fill in the Brokerage listing Agreement below, giving us complete information on your boat and send it to us along with a selection of good quality recent photographs.</p>
 			</div>
 			<div class="span6">
-				<p><strong>Please <a href="contact.html">contact us</a></strong> if you would like any advice or assistance about any aspect of selling your boat.</p>
+				<p><strong>Please <a href="contact.php">contact us</a></strong> if you would like any advice or assistance about any aspect of selling your boat.</p>
 
 				<a href="/assets/ListingAgreement2010.pdf" target="_blank">
 					<img src="/img/pdf-logo.jpg" title="Brokerage Listing Agreement" alt="PDF icon"> 

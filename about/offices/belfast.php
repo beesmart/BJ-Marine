@@ -42,7 +42,7 @@
 	<section>
 		<div class="row">
 			<div class="span12">
-				<p>We have a comprehensive display of new boats and used boats at all times. BJ Marine is one of the most successful and longest established new and used boat sales and International brokerage boat sales service on the market, our experienced staff and modern approach to selling can provide you with the widest choice along with the best help and advice whether you are buying a boat or selling your boat. Please <a href="/contact.html">contact us</a> today!</p>
+				<p>We have a comprehensive display of new boats and used boats at all times. BJ Marine is one of the most successful and longest established new and used boat sales and International brokerage boat sales service on the market, our experienced staff and modern approach to selling can provide you with the widest choice along with the best help and advice whether you are buying a boat or selling your boat. Please <a href="/contact.php">contact us</a> today!</p>
 			</div>
 		</div>
 	</section>

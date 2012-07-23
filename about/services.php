@@ -34,7 +34,7 @@
 		<h2>Parts Department</h2>
 		<div class="row-fluid">
 			<div class="span8">
-				<p>Our parts department can be contacted directly by email at <a href="mailto:sales@bjmarine.net">sales@bjmarine.net</a> or telephone any of <a href="ouroffices.html">our offices</a>. We supply a comprehensive range of all spare parts for the boat brands that we sell. </p>
+				<p>Our parts department can be contacted directly by email at <a href="mailto:sales@bjmarine.net">sales@bjmarine.net</a> or telephone any of <a href="/about/offices/index.php">our offices</a>. We supply a comprehensive range of all spare parts for the boat brands that we sell. </p>
 			</div>
 			<div class="span4">
 				<a href="http://www.dmgsailsports.com/" target="_blank">

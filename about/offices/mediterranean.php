@@ -32,7 +32,7 @@
 	<section>
 		<div class="row">
 			<div class="span12">
-				<p>Our team here can offer you both new and used boat sales, brokerage and after sales service. Please <a href="/contact.html">contact Alfred</a> today</p>
+				<p>Our team here can offer you both new and used boat sales, brokerage and after sales service. Please <a href="/contact.php">contact Alfred</a> today</p>
 			</div>
 		</div>
 	</section>
