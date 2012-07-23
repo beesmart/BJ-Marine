@@ -3,7 +3,7 @@
 	$_REQUEST['description'] 	= "Find boats for sale or sell your boat with BJ Marine in person or online. We have a large selection of boats for sale. Find your new boat today.";
 	$_REQUEST['Keywords'] 		= "Boats, Power, Sail, Marina, Berths, Malahide, Dublin, Bangor, Cork, Malta, Brokerage, Used Boats, Yachts";
 	$_REQUEST['title'] 			= "BJ Marine - Power Boats, Sail/Yachts for Sale and Brokerage";
-	$_REQUEST['robots'] 		= "noindex,nofollow";
+	$_REQUEST['robots'] 		= "index,follow";
 ?>
 
 <!doctype html>
