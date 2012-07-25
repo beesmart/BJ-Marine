@@ -23,9 +23,9 @@
 	<meta name="Author" content="Denis Hoctor - denishoctor@gmail.com" />
 	<meta name="Robots" content="<?php echo $_REQUEST['robots']; ?>" />
 
-	<meta name="viewport" content="width=940">
+	<meta name="viewport" content="width=930">
 
-	<link rel="stylesheet" href="/css/style.css?v2.0.1">
+	<link rel="stylesheet" href="/css/style.css?v2.0.2">
 	
 	<script src="/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 </head>

@@ -4410,6 +4410,7 @@ body {
 .brand {
   padding: 9px 12px;
   display: inline-block;
+  width: 200px;
 }
 .navbar-inner {
   min-height: 0;
@@ -4428,7 +4429,7 @@ body {
   height: 8px;
   background: #1D4986;
   position: absolute;
-  top: 6px;
+  top: 8px;
   left: 8px;
 }
 .title-locations li {
@@ -4440,6 +4441,8 @@ body {
   list-style-type: none;
   padding-left: 28px;
   position: relative;
+  height: 21px;
+  line-height: 21px;
 }
 .title-locations li:first-child:before {
   display: none;

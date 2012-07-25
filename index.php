@@ -14,7 +14,7 @@
 				</p>
 			</div>
 			<div class="span3 text-center">
-				<a href="boats/brokerage/sellyourboat.php">
+				<a href="boats/brokerage/index.php">
 					<img src="img/used-boats.png" title="Used Boats" alt="Brokerage Logo" data-hover />
 				</a>
 				<a href="about/offices/belfast.php">
@@ -49,10 +49,14 @@
 			</a>
 		</div>
 		<div class="span4">
-			<img src="img/brands/cranchi/power-squared.jpg" title="New Cranchi Power Boats" alt="Cranchi Power Boat" />
+			<a href="http://www.cranchi.com">
+				<img src="img/brands/cranchi/power-squared.jpg" title="New Cranchi Power Boats" alt="Cranchi Power Boat" />
+			</a>
 		</div>
 		<div class="span4">
-			<img src="img/brands/greenline/power-squared.jpg" title="New Greenline Power Boats" alt="Greenline Power Boat" />
+			<a href="http://www.greenlinehybrid.com">
+				<img src="img/brands/greenline/power-squared.jpg" title="New Greenline Power Boats" alt="Greenline Power Boat" />
+			</a>
 		</div>
 	</div>
 
