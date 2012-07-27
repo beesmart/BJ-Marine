@@ -1,12 +1,12 @@
 <?php 
-	$_REQUEST['page'] = "boats-new-fairline";
+	$_REQUEST['page'] = "boats-new-greenline";
 	include $_SERVER['DOCUMENT_ROOT'].'/skin/header.php';
 
-	$brandUri = 'http://www.fairline.com/#/ireland/';
+	$brandUri = 'http://www.greenlinehybrid.com/';
 ?>
 
 	<header class="page-header" id="overview">
-		<h2>New Fairline Boats</h2>
+		<h2>New Greenline Boats</h2>
 	</header>
 
 	<section>
@@ -15,7 +15,7 @@
 				<?php include 'brand-logos.php' ?>
 			</div>
 			<div class="span10">
-				<iframe class="fairline-iframe" src="<?php echo $brandUri; ?>"></iframe>
+				<iframe class="greenline-iframe" src="<?php echo $brandUri; ?>"></iframe>
 			</div>
 			<div
 		</div>

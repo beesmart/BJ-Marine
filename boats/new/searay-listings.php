@@ -7,7 +7,7 @@
 		<h2>New SeaRay Boats</h2>
 	</header>
 
-	<iframe class="searayframe" scrolling="auto" src="http://www.searay.com/"></iframe>
+	<iframe class="searay-iframe" scrolling="auto" src="http://www.searay.com/"></iframe>
 
 <?php include $_SERVER['DOCUMENT_ROOT'].'/skin/footer.php'; ?>
 

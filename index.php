@@ -49,12 +49,12 @@
 			</a>
 		</div>
 		<div class="span4">
-			<a href="http://www.cranchi.com">
+			<a href="boats/new/cranchi-listings.php">
 				<img src="img/brands/cranchi/power-squared.jpg" title="New Cranchi Power Boats" alt="Cranchi Power Boat" />
 			</a>
 		</div>
 		<div class="span4">
-			<a href="http://www.greenlinehybrid.com">
+			<a href="boats/new/greenline-listings.php">
 				<img src="img/brands/greenline/power-squared.jpg" title="New Greenline Power Boats" alt="Greenline Power Boat" />
 			</a>
 		</div>
