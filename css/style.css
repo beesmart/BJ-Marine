@@ -4444,16 +4444,18 @@ body {
 
 }
 .navbar .nav-collapse .nav > li > a,
-.navbar .nav .active > a,
-.navbar .nav .active > a:hover {
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover {
   color: #EFEFEF;
   float: none;
   padding: 8px 10px 10px;
 }
-.navbar .nav .active > a,
-.navbar .nav .active > a:hover,
-.navbar .nav > li > a:hover {
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > li > a:hover,
+.navbar .nav-collapse .nav li.dropdown.active > .dropdown-toggle {
   background-color: #4D6A92;
+  color: #EFEFEF;
 }
 .navbar .nav li.dropdown .dropdown-toggle .caret,
 .navbar .nav .open .caret,

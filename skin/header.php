@@ -25,7 +25,7 @@
 
 	<meta name="viewport" content="width=930">
 
-	<link rel="stylesheet" href="/css/style.css?v2.0.2">
+	<link rel="stylesheet" href="/css/style.css?v2.0.3">
 	
 	<script src="/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 </head>
