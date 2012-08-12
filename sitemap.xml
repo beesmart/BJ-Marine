@@ -95,6 +95,21 @@
 	<priority>0.80</priority>
 </url>
 <url>
+	<loc>http://bjmarine.net/extra/boatshows.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/extra/winterstorageoffer.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/new/greenline-listings.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
 	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3617904</loc>
 	<changefreq>weekly</changefreq>
 	<priority>0.64</priority>
