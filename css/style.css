@@ -2994,7 +2994,6 @@ input[type="submit"].btn.btn-mini {
   background-image: -o-linear-gradient(top, #fcfbfd, #fcfbfd);
   background-image: linear-gradient(top, #fcfbfd, #fcfbfd);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfbfd', endColorstr='#fcfbfd', GradientType=0);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -4447,6 +4446,7 @@ body {
   background: linear-gradient(to bottom, #1d4986 0%, #1d5a86 40%, #1d5a86 60%, #1d4986 100%);
   /* W3C */
 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1d4986', endColorstr='#1d5a86', GradientType=0);
 }
 .navbar .nav-collapse .nav > li > a,
 .navbar .nav > .active > a,
@@ -4474,6 +4474,7 @@ body {
 }
 .topnav .navbar-inner {
   background: #459fd1;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#459fd1', endColorstr='#459fd1', GradientType=0);
   border-radius: 0 0 3px 3px;
   border-top-width: 0;
 }

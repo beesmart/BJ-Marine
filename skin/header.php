@@ -4,6 +4,8 @@
 	$_REQUEST['Keywords'] 		= "Boats, Power, Sail, Marina, Berths, Malahide, Dublin, Bangor, Cork, Malta, Brokerage, Used Boats, Yachts";
 	$_REQUEST['title'] 			= "BJ Marine - Power Boats, Sail/Yachts for Sale and Brokerage";
 	$_REQUEST['robots'] 		= "index,follow";
+
+	$appVersion = "?v2.1.1"
 ?>
 
 <!doctype html>
@@ -25,9 +27,7 @@
 
 	<meta name="viewport" content="width=930">
 
-	<link rel="stylesheet" href="/css/style.css?v2.0.3">
-	
-	<script src="/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+	<link rel="stylesheet" href="/css/style.css<?php echo $appVersion ?>">
 </head>
 <body class="<?php echo $_REQUEST['page']; ?>">
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -67,7 +67,7 @@
 					</a>
 					<div class="nav-collapse">
 						<?php include 'main-menu.php'; ?>
-					</div><!--/.nav-collapse -->
+					</div>
 				</div>
 			</div>
 		</div>
