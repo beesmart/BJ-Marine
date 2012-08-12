@@ -1,8 +1,71 @@
 <?php 
 	$_REQUEST['page'] = "home";
-	include 'skin/header.php'; 
+	include $_SERVER['DOCUMENT_ROOT'].'/skin/header.php'; 
 ?>
-	<!-- Main hero unit for a primary marketing message or call to action -->
+
+	<div class="row">
+		<div class="span12 slider">
+			<ul class="bjqs">
+				<li>
+					<a href="/extra/boatshows.php">
+						<img src="img/slider/boatshows.jpg" alt="Boat Show Slider Montage" title="Meet us at one of the many upcming boat shows around Europe" />
+					</a>
+				</li>
+				<li>
+					<a href="/boats/used/index.php">
+						<img src="img/slider/brokerage.jpg" alt="Brokerage and Used Boats Advert" title="Review our used boat stock or list your own with us" />
+					</a>
+				</li>
+				<li>
+					<a href="/boats/new/beneteau-listings.php">
+						<img src="img/slider/beneteau.jpg" alt="Beneteau Listings Advert" title="Checkout the newest Beneteau boats" />
+					</a>
+				</li>
+				<li>
+					<a href="/extra/winterstorageoffer.php">
+						<img src="img/slider/services.jpg" alt="Boatyard Services Slider" title="See more about our winter storage offer" />
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row-fluid feature-images">
+		<div class="span4">
+			<a href="boats/new/beneteau-listings.php">
+				<img src="img/brands/beneteau/yacht-squared.jpg" title="New Beneteau Yachts" alt="Beneteau Yacht" />
+			</a>
+		</div>
+		<div class="span4">
+			<a href="boats/new/beneteau-listings.php">
+				<img src="img/brands/beneteau/power-squared.jpg" title="New Beneteau Power Boats" alt="Beneteau Power Boat" />
+			</a>
+		</div>
+		<div class="span4">
+			<a href="boats/new/fairline-listings.php">
+				<img src="img/brands/fairline/power-squared.jpg" title="New Fairline Power Boats" alt="Fairline Power Boat" />
+			</a>
+		</div>
+	</div>
+
+	<div class="row-fluid feature-images">
+		<div class="span4">
+			<a href="boats/new/searay-listings.php">
+				<img src="img/brands/searay/power-squared.jpg" title="New SeaRay Power Boats" alt="SeaRay Power Boat" />
+			</a>
+		</div>
+		<div class="span4">
+			<a href="boats/new/cranchi-listings.php">
+				<img src="img/brands/cranchi/power-squared.jpg" title="New Cranchi Power Boats" alt="Cranchi Power Boat" />
+			</a>
+		</div>
+		<div class="span4">
+			<a href="boats/new/greenline-listings.php">
+				<img src="img/brands/greenline/power-squared.jpg" title="New Greenline Power Boats" alt="Greenline Power Boat" />
+			</a>
+		</div>
+	</div>
+
 	<div class="hero-unit">
 		<div class="row-fluid">
 			<div class="span9">
@@ -24,40 +87,4 @@
 		</div>
 	</div>
 
-	<div class="row-fluid feature-images">
-		<div class="span4">
-			<a href="boats/new/beneteau-listings.php">
-				<img src="img/brands/beneteau/yacht-squared.jpg" title="New Beneteau Yachts" alt="Beneteau Yacht" data-hover />
-			</a>
-		</div>
-		<div class="span4">
-			<a href="boats/new/beneteau-listings.php">
-				<img src="img/brands/beneteau/power-squared.jpg" title="New Beneteau Power Boats" alt="Beneteau Power Boat" data-hover />
-			</a>
-		</div>
-		<div class="span4">
-			<a href="boats/new/fairline-listings.php">
-				<img src="img/brands/fairline/power-squared.jpg" title="New Fairline Power Boats" alt="Fairline Power Boat" data-hover />
-			</a>
-		</div>
-	</div>
-
-	<div class="row-fluid feature-images">
-		<div class="span4">
-			<a href="boats/new/searay-listings.php">
-				<img src="img/brands/searay/power-squared.jpg" title="New SeaRay Power Boats" alt="SeaRay Power Boat" data-hover />
-			</a>
-		</div>
-		<div class="span4">
-			<a href="boats/new/cranchi-listings.php">
-				<img src="img/brands/cranchi/power-squared.jpg" title="New Cranchi Power Boats" alt="Cranchi Power Boat" />
-			</a>
-		</div>
-		<div class="span4">
-			<a href="boats/new/greenline-listings.php">
-				<img src="img/brands/greenline/power-squared.jpg" title="New Greenline Power Boats" alt="Greenline Power Boat" />
-			</a>
-		</div>
-	</div>
-
-<?php include 'skin/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'].'/skin/footer.php'; ?>

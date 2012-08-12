@@ -1,5 +1,6 @@
 @import "bootstrap/bootstrap.less";
 @import "bootswatch.less";
+@import "/css/plugins/basic-jquery-slider.css";
 
 @dark-blue: #1D4986; /* Company primary Colour */
 @light-blue: #309EDC; /* Company alt primary Colour */
@@ -91,11 +92,11 @@ right: 0;
 			text-align:center;
 			font-size:18px;
 			font-weight: bold;
-			border-right: 1px inset #14405F;
+			border-right: 1px solid #194C66;
 		}
 
 .title-locations {
-	padding: 36px 36px 23px;
+	padding: 36px 0 23px;
 }
 	.title-locations li:before {
 		content: '';
@@ -127,6 +128,61 @@ right: 0;
 .main > section{margin-bottom:36px;overflow:hidden;}
 
 .brand-logos img{margin-bottom:12px;}
+
+.promo-page{
+	background: url('/img/bj-flag-bg.jpg') no-repeat 0 0;
+	height: 627px;
+	padding: 18px;
+}
+	.promo-page .hero-unit{margin-left:380px;}
+		.promo-page h1 {
+			font-size: 32px;
+			margin-bottom: 12px;
+			color: @dark-red;
+			text-transform:uppercase;
+		}
+		.promo-page .dl-horizontal dt {
+			width: 190px;
+			margin: 0 24px 12px 0;
+		}
+		.promo-page .dl-horizontal dd {
+			margin-bottom: 12px;
+			color: @dark-red;
+		}
+
+
+/* Slider plugin Overrides */
+.slider{
+	margin-bottom: 48px;
+	position:relative;
+	height:300px;
+	width:900px;
+	background: url('/img/loading.gif') no-repeat 50% 50%;
+}
+		ul.bjqs-controls li a {
+			background:#CCC;
+			background:rgba(204, 204, 204, 0.8);
+			display: block;
+			padding: 32px 10px;
+			margin-top: -24px;
+		}
+		ul.bjqs-controls li a:hover {
+			background:#DEDEDE;
+			background:rgba(204, 204, 204, 0.9);
+		}
+	ol.bjqs-markers {
+		bottom: 6px;
+	}
+		ol.bjqs-markers li a {
+			display: block;
+			height: 21px;
+			width: 21px;
+			border-radius: 0;
+			background: @dark-blue;
+		}
+		ol.bjqs-markers li.active-marker a {
+			background: @dark-red;
+		}
 
 /* New Boat Listings */
 .searay-iframe {
@@ -186,3 +242,4 @@ right: 0;
 	margin-right: auto;
 	float: none;
 }
+.important{color:@dark-red;}
