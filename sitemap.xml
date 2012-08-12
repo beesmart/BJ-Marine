@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+			xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+						http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+	<loc>http://bjmarine.net/</loc>
+	<changefreq>weekly</changefreq>
+	<priority>1.00</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/index.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/new/index.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/index.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/brokerage/index.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/about/team.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/about/index.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/about/offices/index.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/about/services.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/contact.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/about/offices/dublin.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/about/offices/belfast.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/about/offices/mediterranean.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/new/beneteau-listings.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/new/fairline-listings.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/new/searay-listings.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/new/cranchi-listings.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/new/greenline-listings.php</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.80</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3617904</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3618818</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590096</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3845680</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3001668</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590851</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3650581</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3910871</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590043</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590130</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3837813</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590703</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590876</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590265</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590842</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3000065</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3025741</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3823622</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3879229</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590067</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590065</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590694</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590702</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3367439</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=590824</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3694629</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=815193</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=4035259</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3275108</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/boats/used/boat-details.php?BoatID=3438062</loc>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+<url>
+	<loc>http://bjmarine.net/assets/ListingAgreement2010.pdf</loc>
+	<lastmod>2012-07-23T09:26:41+00:00</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.64</priority>
+</url>
+</urlset>
