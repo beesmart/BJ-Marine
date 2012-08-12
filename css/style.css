@@ -4387,6 +4387,9 @@ pre.prettyprint,
   -moz-border-radius: 0;
   border-radius: 0;
 }
+/* Company primary Colour */
+/* Company alt primary Colour */
+/* Company secondary Colour */
 /* ===== Primary Styles ========================================================
    Author: Denis Hoctor
    ========================================================================== */
@@ -4401,6 +4404,9 @@ body {
   box-sizing: border-box;
 }
 /* Custom Bootstrap / Bootswatch overrides */
+.container {
+  position: relative;
+}
 .hero-unit {
   padding: 40px;
   margin-bottom: 20px;
@@ -4408,8 +4414,8 @@ body {
 }
 /* Header */
 .brand {
-  padding: 9px 12px;
   display: inline-block;
+  margin-top: 10px;
   width: 200px;
 }
 .navbar .navbar-inner {
@@ -4439,14 +4445,11 @@ body {
   background: linear-gradient(to bottom, #1d4986 0%, #1d5a86 40%, #1d5a86 60%, #1d4986 100%);
   /* W3C */
 
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#1d4986', endColorstr='#1d4986', GradientType=0);
-  /* IE6-8 */
-
 }
 .navbar .nav-collapse .nav > li > a,
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover {
-  color: #EFEFEF;
+  color: #efefef;
   float: none;
   padding: 8px 10px 10px;
 }
@@ -4455,29 +4458,66 @@ body {
 .navbar .nav > li > a:hover,
 .navbar .nav-collapse .nav li.dropdown.active > .dropdown-toggle {
   background-color: #4D6A92;
-  color: #EFEFEF;
+  color: #efefef;
 }
 .navbar .nav li.dropdown .dropdown-toggle .caret,
 .navbar .nav .open .caret,
 .navbar .nav .open .dropdown-toggle:hover .caret {
   border-top-color: inherit;
 }
+/* Topnav: refactored bootstrap nav */
+.topnav {
+  position: absolute;
+  right: 0;
+}
+.topnav .navbar-inner {
+  background: #459fd1;
+  border-radius: 0 0 3px 3px;
+  border-top-width: 0;
+}
+.topnav .nav-collapse .nav > li > a,
+.topnav .nav > .active > a,
+.topnav .nav > .active > a:hover {
+  padding: 2px 12px 2px;
+  font-size: 12px;
+}
+.topnav .nav > .active > a,
+.topnav .nav > .active > a:hover,
+.topnav .nav > li > a:hover,
+.topnav .nav-collapse .nav li.dropdown.active > .dropdown-toggle {
+  background-color: #68b1d3;
+}
+/* Mainnav: refactor bootstrap nav */
+.mainnav .nav {
+  width: 100%;
+}
+.mainnav .nav > li {
+  width: 20%;
+}
+.mainnav .nav-collapse .nav > li > a,
+.mainnav .nav > .active > a,
+.mainnav .nav > .active > a:hover {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-right: 1px inset #14405F;
+}
 .title-locations {
-  padding: 24px 36px 13px;
+  padding: 36px 36px 23px;
 }
 .title-locations li:before {
   content: '';
   border-radius: 50%;
   width: 8px;
   height: 8px;
-  background: #1D4986;
+  background: #1d4986;
   position: absolute;
   top: 8px;
   left: 8px;
 }
 .title-locations li {
   font-size: 28px;
-  color: #1D4986;
+  color: #1d4986;
   float: left;
   font-weight: bold;
   text-transform: uppercase;

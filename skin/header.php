@@ -33,9 +33,20 @@
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
 	<div class="main container">
+
+		<div class="navbar topnav">
+			<div class="navbar-inner">
+				<div class="container">
+					<div class="nav-collapse">
+						<?php include 'top-menu.php'; ?>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="row">
 			<div class="span4">
-				<a class="brand" href="#"><img class="bj-logo" src="/img/logo.png" title="BJ Marine" alt="BJ Marine Logo" /></a>
+				<a class="brand" href="/"><img class="bj-logo" src="/img/logo.png" title="BJ Marine" alt="BJ Marine Logo" /></a>
 			</div>
 			<div class="span8">
 				<ul class="title-locations">
@@ -46,7 +57,7 @@
 			</div>
 		</div>
 
-		<div class="navbar">
+		<div class="navbar mainnav">
 			<div class="navbar-inner">
 				<div class="container">
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -55,7 +66,7 @@
 						<span class="icon-bar"></span>
 					</a>
 					<div class="nav-collapse">
-						<?php include 'menu.php'; ?>
+						<?php include 'main-menu.php'; ?>
 					</div><!--/.nav-collapse -->
 				</div>
 			</div>

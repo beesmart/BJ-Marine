@@ -1,5 +1,5 @@
 <?php 
-	$_REQUEST['page'] = "about-offices";
+	$_REQUEST['page'] = "offices";
 	include $_SERVER['DOCUMENT_ROOT'].'/skin/header.php';
 ?>
 
