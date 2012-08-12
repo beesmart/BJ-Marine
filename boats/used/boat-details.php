@@ -24,348 +24,311 @@ if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
 $url = curPageURL();
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<?php
+	$_REQUEST['description'] 	= "Find boats for sale or sell your boat with BJ Marine in person or online. We have a large selection of boats for sale. Find your new boat today.";
+	$_REQUEST['Keywords'] 		= "Boats, Power, Sail, Marina, Berths, Malahide, Dublin, Bangor, Cork, Malta, Brokerage, Used Boats, Yachts";
+	$_REQUEST['title'] 			= "BJ Marine - Power Boats, Sail/Yachts for Sale and Brokerage";
+
+	$appVersion = "?v2.1.3";
+?>
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-<title><?php echo $boat['Make'] . " " . $boat['Model']; ?> boat for sale | BJ Marine.net</title>
-<meta name="keywords" content="<?php echo $boat['Make']; ?>, <?php echo $boat['Model']; ?>, <?php echo $boat['LocationCountry']; ?>, boat for sale, used boat, brokerage, yacht" />
-<meta name="description" content="<?php strip_tags ($boat['Description']); ?>" />
-<meta http-equiv='Content-Type' content='Type=text/html; charset=utf-8'/>
-<link href="includes/brokerage-boats.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-<script type="text/javascript" src="galleria/galleria-1.2.4.min.js"></script>
-<meta content="8ulQtunA0sVietNFCJFm31ifp9zCqLPEKKb0JX4FkwA=" name="verify-v1" />
-<link href="/favicon.ico" rel="icon" type="image/x-icon"/>
-<link href="/images/bjmarine_front.css" rel="stylesheet" type="text/css" />
-<link href="/images/news_window.css" rel="StyleSheet" type="text/css"/>
-<script src="../ddtabmenufiles/ddtabmenu.js" type="text/javascript"></script>
-<link href="../ddtabmenufiles/ddcolortabs.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript">
-//SYNTAX: ddtabmenu.definemenu("tab_menu_id", integer OR "auto")
-ddtabmenu.definemenu("ddtabs4", 0) //initialize Tab Menu #4 with 3rd tab selected
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-</script>
-<script type="text/javascript">
-//SYNTAX: ddtabmenu.definemenu("tab_menu_id", integer OR "auto")
-ddtabmenu.definemenu("ddtabs4", 0) //initialize Tab Menu #4 with 3rd tab selected
-function FP_swapImg() {//v1.0
- var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
- n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
- elm.$src=elm.src; elm.src=args[n+1]; } }
-}
+	<title><?php echo $_REQUEST['title']; ?></title>
 
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
-}
+	<meta name="Description" content="<?php echo $_REQUEST['description']; ?>" />
+	<meta name="Keywords" content="<?php echo $_REQUEST['Keywords']; ?>" />
 
-function FP_getObjectByID(id,o) {//v1.0
- var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
- else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
- if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
- for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
- f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
- for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
- return null;
-}
+	<meta name="Author" content="Denis Hoctor - denishoctor@gmail.com" />
+	<meta name="Robots" content="<?php echo $_REQUEST['robots']; ?>" />
 
-function FP_swapImgRestore() {//v1.0
- var doc=document,i; if(doc.$imgSwaps) { for(i=0;i<doc.$imgSwaps.length;i++) {
-  var elm=doc.$imgSwaps[i]; if(elm) { elm.src=elm.$src; elm.$src=null; } } 
-  doc.$imgSwaps=null; }
-}
-</script>
+	<meta name="viewport" content="width=940">
 
-<link rel="stylesheet" type="text/css" href="shadowbox/shadowbox.css" />
-<script type="text/javascript" src="shadowbox/shadowbox.js"></script>
-<script type="text/javascript">
-Shadowbox.init({ language: 'en', players: ['img', 'html', 'iframe', 'qt', 'wmp', 'swf', 'flv'] });
-</script>
-<!-- Facebook Opengraph -->
-<meta property="og:title" content="<?php echo $boat['Make'] . " " . $boat['Model']; ?> for sale" />
-<meta property="og:type" content="product" />
-<meta property="og:url" content="<?php echo $url; ?>" />
-<meta property="og:image" content="http://www.boatwizardwebsolutions.co.uk/used-boats-for-sale/for-sale.gif" />
-<meta property="og:description" content="View this boat for sale. Includes price information and photo gallery!" />
-<meta property="og:site_name" content="BJ Marine" />
-<meta property="fb:admins" content="100002748181602" />
-<meta property="fb:app_id" content="159159377546939" />
-    <div id="fb-root"></div>
-<script type="text/javascript">
-  window.fbAsyncInit = function() {
-    FB.init({appId: '159159377546939', status: true, cookie: true, xfbml: true});
-                };
-window.setTimeout(function() {
-    FB.Canvas.setAutoResize();
-  }, 250);
-  };
-  (function() {
-    var e = document.createElement('script'); e.async = true;
-    e.src = document.location.protocol +
-      'http://connect.facebook.net/en_US/all.js';
-    document.getElementById('fb-root').appendChild(e);
-  }());
-</script>
+	<link href="/css/style.css<?php echo $appVersion ?>" rel="stylesheet" type="text/css" />
+	<link href="includes/brokerage-boats.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script type="text/javascript" src="galleria/galleria-1.2.4.min.js<?php echo $appVersion ?>"></script>
+	<!-- Facebook Opengraph -->
+	<meta property="og:title" content="<?php echo $boat['Make'] . " " . $boat['Model']; ?> for sale" />
+	<meta property="og:type" content="product" />
+	<meta property="og:url" content="<?php echo $url; ?>" />
+	<meta property="og:image" content="http://www.boatwizardwebsolutions.co.uk/used-boats-for-sale/for-sale.gif" />
+	<meta property="og:description" content="View this boat for sale. Includes price information and photo gallery!" />
+	<meta property="og:site_name" content="BJ Marine" />
+	<meta property="fb:admins" content="100002748181602" />
+	<meta property="fb:app_id" content="159159377546939" />
+	<div id="fb-root"></div>
+	<script type="text/javascript">
+	window.fbAsyncInit = function () {
+		   FB.init({ 
+			  appId: '159159377546939', 
+			  status: true, 
+			  cookie: true, 
+			  xfbml: true, 
+			  oauth: true 
+		   });
+		   FB.Canvas.setAutoGrow();
+	   }
+	</script>
+	<script src="//connect.facebook.net/en_US/all.js" type="text/javascript"></script>
+	<script type="text/javascript" src="scripts/usedboats.js<?php echo $appVersion ?>"></script>
+
 </head>
+<body class="<?php echo $_REQUEST['page']; ?>">
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
-<body id="body_brokerage">
-<!-- wrap starts here -->
-<div id="wrapnew">
-	<div id="xheader">
-		<div id="logo">
-			<img alt="BJ Marine Header" class="no-border" height="100" src="/images/NewLogo3.jpg" width="1020" /></div>
-		<!-- Menu Tabs --></div>
-	<div id="ddtabs4" class="ddcolortabs">
-		<ul>
-			<li id="nav_home"><a href="/index.php"><span>Home</span></a></li>
-			<li id="nav_newboats"><a href="/newboats.html"><span>New Boats</span></a></li>
-			<li id="nav_brokerage"><a href="/used-boats"><span>Used Boats</span></a></li>
-			<li id="nav_sellboat"><a href="/sellyourboat.html"><span>Sell Your Boat</span></a></li>
-			<li id="nav_team"><a href="/salesteam.html"><span>Sales Team</span></a></li>
-			<li id="nav_offices"><a href="/ouroffices.html"><span>Our Offices</span></a></li>
-			<li id="nav_services"><a href="/services.html"><span>Services</span></a></li>
-			<li id="nav_about"><a href="/about_bj_marine.html"><span>About</span></a></li>
-			<li id="nav_contact"><a href="/contact.html"><span>Contact</span></a></li>
-		</ul>
-	</div>
-	<div class="ddcolortabsline">
-	</div>
-	<!-- content-wrap starts here -->
-	<div id="content-wrap">
-		<div id="header-gap">
-		</div>
-		<div id="boat-content">
-			<div id="page-numbers">
-				<a href="javascript:history.back(1);">&lt; Back to Previous Page</a>
-			</div>
-			
-			<div id="description">
-				<div class="price"><?php if ($boat['Price'] != "1"){ echo $boat['PriceCurrency']; ?><?php echo $boat['Price']; 
-						} else { echo "Contact us for price"; }?></div>
-				<h1><?php echo $boat['Make'] . " " . $boat['Model']; ?></h1>	
-				<p><strong>Location:</strong> <?php echo $boat['LocationCity'] . ", " . $boat['LocationCountry']; ?></p>
-				<p><?php echo $boat['Description'] ?></p>
-				<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#appId=159159377546939&amp;xfbml=1"></script>
-				<fb:like href="<?php echo $url; ?>" send="true" width="470" show_faces="true" font=""></fb:like>
-				<br/><br/>
-			</div>
-			
-			<!-- START IMAGE GALLERY -->
-			<?php $boatid = $_GET['BoatID'];?>
-			<div id="image-gallery">
-				<div id="gallery">
-					<?php 
-					$Query = "SELECT * FROM images WHERE BoatID=$id";
-					$imagedata = $db->db_query($Query); 
-					while($image = $db->db_rs($imagedata)) {?>
-					<img src="<?php echo $image['ImageURL'] ?>" /><br/>
-					<?php }?>
+
+	<div class="main container">
+
+		<div class="navbar topnav">
+			<div class="navbar-inner">
+				<div class="container">
+					<div class="nav-collapse">
+						<?php include $_SERVER['DOCUMENT_ROOT'].'/skin/top-menu.php'; ?>
+					</div>
 				</div>
-				<script type="text/javascript">
-					Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
-					$("#gallery").galleria({
-					autoplay: 5000,
-					width: 650,
-					height: 500
-					});
-				</script>
 			</div>
-			<!-- END IMAGE GALLERY -->
-				
-			<!--START BASIC DETAILS-->
-			
-				<table id="specs">
-					<tbody>
-						<tr><td class="specs-heading" colspan="2"><?php echo $boat['Make'] . " " . $boat['Model']; ?> Details</td></tr>
-						<?php 			
-						echo "<tr><td class='field'>Boat Reference: </td><td>" . $boat['BoatID'] . "</td></tr>";			
-						if (isset($boat['Name']) && $boat['Name'] != ""){ echo "<tr><td class='field'>Name: </td><td>" . $boat['Name'] . "</td></tr>"; };
-						if (isset($boat['Year'])){ echo "<tr><td class='field'>Year Built: </td><td>" . $boat['Year'] . "</td></tr>"; };
-						if (isset($boat['Builder']) && $boat['Builder'] != ""){ echo "<tr><td class='field'>Builder: </td><td>" . $boat['Builder'] . "</td></tr>"; };
-						if (isset($boat['Designer']) && $boat['Designer'] != ""){ echo "<tr><td class='field'>Designer: </td><td>" . $boat['Designer'] . "</td></tr>"; };
-						if (isset($boat['HullMaterial'])){ echo "<tr><td class='field'>Hull Material: </td><td>" . $boat['HullMaterial'] . "</td></tr>"; };
-						if (isset($boat['Length_mt'])){ echo "<tr><td class='field'>Length: </td><td>" . $boat['Length_mt'] . " metres / " . $boat['Length_ft'] . " feet</td></tr>"; };
-						if ($boat['Beam'] != 0){ echo "<tr><td class='field'>Beam: </td><td>" . $boat['Beam'] . "</td></tr>"; };
-						if ($boat['Displacement'] != 0){ echo "<tr><td class='field'>Displacement: </td><td>" . $boat['Displacement'] . " ". $boat['DisplacementUnit'] . "</td></tr>"; };
-						if ($boat['MaxDraft'] != 0){ echo "<tr><td class='field'>Max Draft: </td><td>" . $boat['MaxDraft'] . "</td></tr>"; };
-						if ($boat['Ballast'] != 0){ echo "<tr><td class='field'>Ballast: </td><td>" . $boat['Ballast'] . " " . $boat['BallastUnit'] . "</td></tr>"; };
-						if ($engine['EngineNo'] != 0){ echo "<tr><td class='field'>Engines: </td><td>" . $engine['EngineNo'] . " x " . $engine['EngineMake'] . " " . $engine['EngineModel'] . "</td></tr>"; };
-						if ($boat['CruisingSpeed'] != 0){ echo "<tr><td class='field'>Cruising Speed: </td><td>" . $boat['CruisingSpeed'] . "</td></tr>"; };
-						if ($boat['MaxSpeed'] != 0){ echo "<tr><td class='field'>Max Speed: </td><td>" . $boat['MaxSpeed'] . "</td></tr>"; };
-						if ($boat['FuelTankNo'] != 0){ echo "<tr><td class='field'>Fuel Tankage: </td><td>" . $boat['FuelTankNo'] . " x " . $boat['FuelTankCap'] . " " . $boat['FuelTankCapUnit'] . "</td></tr>"; };
-						if ($boat['WaterTankNo'] != 0){ echo "<tr><td class='field'>Water Tankage: </td><td>" . $boat['WaterTankNo'] . " x " . $boat['WaterTankCap'] . " " . $boat['WaterTankCapUnit'] . "</td></tr>"; };
-						if ($boat['HoldingTankNo'] != 0){ echo "<tr><td class='field'>Holding Tankage: </td><td>" . $boat['HoldingTankNo'] . " x " . $boat['HoldingTankCap'] . " " . $boat['HoldingTankCapUnit'] . "</td></tr>"; };
-						?>
-					</tbody>
-				</table>
-			<div id="descriptions">
-				<?php 
-				$Query = "SELECT * FROM descriptions WHERE BoatID=$id";
-				$textdata = $db->db_query($Query); 
-				while($text = $db->db_rs($textdata)) {
-					if ($text['AddTitle'] != "customContactInformation" && $text['AddTitle'] != "Disclaimer"){
-						echo "<h4>" . $text['AddTitle'] . "</h4>";
-						$text['AddDescription']=str_replace("ÃƒÂ¢","'",$text['AddDescription']);
-						echo "<p>" . $text['AddDescription'] . "</p>";
-					}
-				}
-				$Query = "SELECT * FROM features WHERE BoatID=$id";
-				$featuredata = $db->db_query($Query); 
-				if ($db->db_rows($featuredata) > 0){
-					echo "<ul>";
-					while($feature = $db->db_rs($featuredata)) {
-						$feature['Feature']=str_replace("ÃƒÂ¢","'",$feature['Feature']);
-						$feature['Feature']=str_replace("_"," ",$feature['Feature']);
-						$feature['Feature']=strtolower($feature['Feature']);
-						$feature['Feature']=ucfirst($feature['Feature']);
-						echo "<li>" . $feature['Feature'] . "</li>";
-					}
-					echo"</ul><br/><br/>";
-				}
-				$Query = "SELECT * FROM descriptions WHERE BoatID=$id";
-				$textdata = $db->db_query($Query); 
-				while($text = $db->db_rs($textdata)) {
-					if ($text['AddTitle'] == "customContactInformation" || $text['AddTitle'] == "Disclaimer"){
-						$text['AddTitle']=str_replace("customContactInformation","Additional Contact Information",$text['AddTitle']);
-						echo "<h4>" . $text['AddTitle'] . "</h4>";
-						$text['AddDescription']=str_replace("ÃƒÂ¢","'",$text['AddDescription']);
-						echo "<p>" . $text['AddDescription'] . "</p>";
-					}
-				}?>
-			</div>
-			<!--END BASIC DETAILS-->
-			
 		</div>
-		<div id="sidebar-search" class="sidebar-search">
-			<div class="sidebar-content">
-				<!-- START CONTACT FORM -->
-				<h4>QUICK CONTACT FORM</h4>
-				<?php 
-				if ($_GET['sent']){
-				echo "<p class=\"top-para\">THANK YOU</p><p>Your enquiry has been sent sucessfully and a member of our team will be in contact as soon as possible</p>";
-				}else{?>
-		
-				<p>Please use this quick contact form if you have any questions about this boat or to request a brochure. </p>
-				<p>Email address is a required field.</p>
-				<form style="width:265px; text-align:left" action="contact-form.php" method="post">
-					<input type="hidden" name="url" value="<?php echo $url;?>"/>
-					<input type="hidden" name="destination" value="<?php echo $boat['BrokerEmail'];?>"/>
-					<div class="option">												
-						Name:<br/> 
-						<input type="text" name="name" style="width: 200px;" />				
+
+		<div class="row">
+			<div class="span4">
+				<a class="brand" href="/"><img class="bj-logo" src="/img/logo.png" title="BJ Marine" alt="BJ Marine Logo" /></a>
+			</div>
+			<div class="span8">
+				<ul class="title-locations">
+					<li>Ireland</li>
+					<li>UK</li>
+					<li>Mediterranean</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="navbar mainnav">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<div class="nav-collapse">
+						<?php include $_SERVER['DOCUMENT_ROOT'].'/skin/main-menu.php'; ?>
 					</div>
-					<div class="option">							
-						Email: <br/>
-						<input type="text" name="email" style="width: 200px" />
-					</div>
-					<div class="option">	
-						Phone: <br/>
-						<input type="text" name="phone" style="width: 200px;" />
-					</div>
-					<div class="option">	
-						Subject: <br/>
-						<input type="text" name="interested" style="width: 200px;" value="<?php echo $boat['BoatID'] . " - " . $boat['Make'] . " " . $boat['Model']; ?>" />
-					</div>
-					<div class="option">
-						Enquiry:<br/>
-						<textarea name="comments" style="height: 100px; width: 200px;" cols="20"></textarea>
-					</div>
-					<div class="option"><input class="check" type="checkbox" name="brochure"/> Tick to request a brochure</div>
-					<br/>
-					<input class="button" type="submit" name="Submit0" value="Submit Enquiry" />		
-				</form>
-					
-				<? } ?>
-				<!-- END CONTACT FORM -->
-			</div>	
-			 <div class="sidebar-content">
-						<!-- START CONTACT FORM -->
-						<h4>CAN'T FIND THE PERFECT BOAT?</h4>
-						<?php 
-						if ($_GET['sent']){
-						echo "<p class=\"top-para\">THANK YOU</p><p>Your enquiry has been sent sucessfully and a member of our team will be in contact as soon as possible</p>";
-						}else{?>
-				
-						<p>Let us know what you are looking for using the enquiry form below</p>
-						<p>Email address is a required field.</p>
-						<form style="width:265px; text-align:left" action="boat-shopper.php" method="post">
-							<input type="hidden" name="url" value="<?php echo $url;?>"/>
-							<div class="option">												
-								Name:<br/> 
-								<input type="text" name="name" style="width: 190px;" />				
+				</div>
+			</div>
+		</div>
+
+		<header class="page-header" id="overview">
+			<h1>Used Boats</h1>
+		</header>
+		<section>
+			<div class="row">
+				<div class="span12">
+					<!-- content-wrap starts here -->
+					<div id="content-wrap">
+						<div id="boat-content">
+						
+							<div id="page-numbers">
+								<a href="javascript:history.back(1);">&lt; Back to Previous Page</a>
 							</div>
-							<div class="option">							
-								Email: <br/>
-								<input type="text" name="email" style="width: 190px" />
-							</div>
-							<div class="option">	
-								Phone: <br/>
-								<input type="text" name="phone" style="width: 190px;" />
-							</div>
-							<div class="option">
-								Enquiry:<br/>
-								<textarea name="comments" style="height: 100px; width: 190px;" cols="20"></textarea>
-							</div>
-							<br/>
-							<input class="button" type="submit" name="Submit0" value="Submit Enquiry" />		
-						</form>
 							
-						<? } ?>
-						<!-- END CONTACT FORM -->
+							<div id="description">
+								<div class="price"><?php if ($boat['Price'] != "1"){ echo $boat['PriceCurrency']; ?><?php echo $boat['Price']; 
+										} else { echo "Contact us for price"; }?></div>
+								<h1><?php echo $boat['Make'] . " " . $boat['Model']; ?></h1>	
+								<p><strong>Location:</strong> <?php echo $boat['LocationCity'] . ", " . $boat['LocationCountry']; ?></p>
+								<p><?php echo $boat['Description'] ?></p>
+								<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#appId=159159377546939&amp;xfbml=1"></script>
+								<fb:like href="<?php echo $url; ?>" send="true" width="470" show_faces="true" font=""></fb:like>
+								<br/><br/>
+							</div>
+							
+							<!-- START IMAGE GALLERY -->
+							<?php $boatid = $_GET['BoatID'];?>
+							<div id="image-gallery">
+								<div id="gallery">
+									<?php 
+									$Query = "SELECT * FROM images WHERE BoatID=$id";
+									$imagedata = $db->db_query($Query); 
+									while($image = $db->db_rs($imagedata)) {?>
+									<img src="<?php echo $image['ImageURL'] ?>" /><br/>
+									<?php }?>
+								</div>
+								<script type="text/javascript">
+									Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+									$("#gallery").galleria({
+									autoplay: 5000,
+									width: 650,
+									height: 500,
+									imageTimeout:60000
+									});
+								</script>
+							</div>
+							<!-- END IMAGE GALLERY -->
+								
+							<!--START BASIC DETAILS-->
+							
+							<table id="specs">
+								<tbody>
+									<tr><td class="specs-heading" colspan="2"><?php echo $boat['Make'] . " " . $boat['Model']; ?> Details</td></tr>
+									<?php 			
+									echo "<tr><td class='field'>Boat Reference: </td><td>" . $boat['BoatID'] . "</td></tr>";			
+									if (isset($boat['Name']) && $boat['Name'] != ""){ echo "<tr><td class='field'>Name: </td><td>" . $boat['Name'] . "</td></tr>"; };
+									if (isset($boat['Year'])){ echo "<tr><td class='field'>Year Built: </td><td>" . $boat['Year'] . "</td></tr>"; };
+									if (isset($boat['Builder']) && $boat['Builder'] != ""){ echo "<tr><td class='field'>Builder: </td><td>" . $boat['Builder'] . "</td></tr>"; };
+									if (isset($boat['Designer']) && $boat['Designer'] != ""){ echo "<tr><td class='field'>Designer: </td><td>" . $boat['Designer'] . "</td></tr>"; };
+									if (isset($boat['HullMaterial'])){ echo "<tr><td class='field'>Hull Material: </td><td>" . $boat['HullMaterial'] . "</td></tr>"; };
+									if (isset($boat['Length_mt'])){ echo "<tr><td class='field'>Length: </td><td>" . $boat['Length_mt'] . " metres / " . $boat['Length_ft'] . " feet</td></tr>"; };
+									if ($boat['Beam'] != 0){ echo "<tr><td class='field'>Beam: </td><td>" . $boat['Beam'] . "</td></tr>"; };
+									if ($boat['Displacement'] != 0){ echo "<tr><td class='field'>Displacement: </td><td>" . $boat['Displacement'] . " ". $boat['DisplacementUnit'] . "</td></tr>"; };
+									if ($boat['MaxDraft'] != 0){ echo "<tr><td class='field'>Max Draft: </td><td>" . $boat['MaxDraft'] . "</td></tr>"; };
+									if ($boat['Ballast'] != 0){ echo "<tr><td class='field'>Ballast: </td><td>" . $boat['Ballast'] . " " . $boat['BallastUnit'] . "</td></tr>"; };
+									if ($engine['EngineNo'] != 0){ echo "<tr><td class='field'>Engines: </td><td>" . $engine['EngineNo'] . " x " . $engine['EngineMake'] . " " . $engine['EngineModel'] . "</td></tr>"; };
+									if ($boat['CruisingSpeed'] != 0){ echo "<tr><td class='field'>Cruising Speed: </td><td>" . $boat['CruisingSpeed'] . "</td></tr>"; };
+									if ($boat['MaxSpeed'] != 0){ echo "<tr><td class='field'>Max Speed: </td><td>" . $boat['MaxSpeed'] . "</td></tr>"; };
+									if ($boat['FuelTankNo'] != 0){ echo "<tr><td class='field'>Fuel Tankage: </td><td>" . $boat['FuelTankNo'] . " x " . $boat['FuelTankCap'] . " " . $boat['FuelTankCapUnit'] . "</td></tr>"; };
+									if ($boat['WaterTankNo'] != 0){ echo "<tr><td class='field'>Water Tankage: </td><td>" . $boat['WaterTankNo'] . " x " . $boat['WaterTankCap'] . " " . $boat['WaterTankCapUnit'] . "</td></tr>"; };
+									if ($boat['HoldingTankNo'] != 0){ echo "<tr><td class='field'>Holding Tankage: </td><td>" . $boat['HoldingTankNo'] . " x " . $boat['HoldingTankCap'] . " " . $boat['HoldingTankCapUnit'] . "</td></tr>"; };
+									?>
+								</tbody>
+							</table>
+							<div id="descriptions">
+								<?php 
+								$Query = "SELECT * FROM descriptions WHERE BoatID=$id";
+								$textdata = $db->db_query($Query); 
+								while($text = $db->db_rs($textdata)) {
+									if ($text['AddTitle'] != "customContactInformation" && $text['AddTitle'] != "Disclaimer"){
+										echo "<h4>" . $text['AddTitle'] . "</h4>";
+										$text['AddDescription']=str_replace("ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢","'",$text['AddDescription']);
+										echo "<p>" . $text['AddDescription'] . "</p>";
+									}
+								}
+								$Query = "SELECT * FROM features WHERE BoatID=$id";
+								$featuredata = $db->db_query($Query); 
+								if ($db->db_rows($featuredata) > 0){
+									echo "<ul>";
+									while($feature = $db->db_rs($featuredata)) {
+										$feature['Feature']=str_replace("ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢","'",$feature['Feature']);
+										$feature['Feature']=str_replace("_"," ",$feature['Feature']);
+										$feature['Feature']=strtolower($feature['Feature']);
+										$feature['Feature']=ucfirst($feature['Feature']);
+										echo "<li>" . $feature['Feature'] . "</li>";
+									}
+									echo"</ul><br/><br/>";
+								}
+								$Query = "SELECT * FROM descriptions WHERE BoatID=$id";
+								$textdata = $db->db_query($Query); 
+								while($text = $db->db_rs($textdata)) {
+									if ($text['AddTitle'] == "customContactInformation" || $text['AddTitle'] == "Disclaimer"){
+										$text['AddTitle']=str_replace("customContactInformation","Additional Contact Information",$text['AddTitle']);
+										echo "<h4>" . $text['AddTitle'] . "</h4>";
+										$text['AddDescription']=str_replace("ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢","'",$text['AddDescription']);
+										echo "<p>" . $text['AddDescription'] . "</p>";
+									}
+								}?>
+							</div>
+							<!--END BASIC DETAILS-->
+							
+						</div>
+						<div id="sidebar-search" class="sidebar-search">
+							<div class="sidebar-content">
+								<!-- START CONTACT FORM -->
+								<h4>QUICK CONTACT FORM</h4>
+								<form id="contact-form">
+									<div class='formResponse'></div>
+									<div class='form-content'>
+										<p>Please use this quick contact form if you have any questions about this boat or to request a brochure. </p>
+										<input type="hidden" name="url" value="<?php echo $url;?>"/>
+										<input type="hidden" name="required" value="email,captcha"/>
+										<input type="hidden" name="interested" value="<?php echo $boat['BoatID'] . " - " . $boat['Make'] . " " . $boat['Model']; ?>" />
+										<div class="option name-text">												
+											Name:<br/> 
+											<input class="wide" type="text" name="name" style="width: 200px;" />				
+										</div>
+										<div class="option email-text">							
+											Email(required): <br/>
+											<input class="wide" type="text" name="email" style="width: 200px" />
+										</div>
+										<div class="option phone-text">	
+											Phone: <br/>
+											<input class="wide" type="text" name="phone" style="width: 200px;" />
+										</div>
+										<div class="option comments-text">
+											Enquiry:<br/>
+											<textarea name="comments" style="height: 100px; width: 200px;" cols="20"></textarea>
+										</div>
+										<div class="option"><input class="check" type="checkbox" name="brochure"/> Tick to request a brochure</div>
+										<br/>
+										<div class="option captcha-text">
+											Please help us avoid spam by entering the characters below: <br/>
+											<input type="hidden" id="contact_captcha_challenge" name="captcha_challenge" class="captcha_challenge" value="">
+											<center><img id="contact_captcha_image" class="captcha_image"/></center>
+											<input class="wide" type="text" name="captcha" value=""><br/>
+											<a href="javascript:getCaptcha('contact_captcha_image', 'contact_captcha_challenge');">Request a new image</a>
+										</div>
+										<script>
+										getCaptcha('contact_captcha_image', 'contact_captcha_challenge');</script>
+										<input class="button" type="button" name="send" value="Send Enquiry" onclick="javascript:submitContactForm('contact-form')"/></p>
+									</div>
+								</form>
+								<!-- END CONTACT FORM -->
+							</div>	
+							<div class="sidebar-content">
+								<!-- START CONTACT FORM -->
+								<h4>CAN'T FIND THE PERFECT BOAT?</h4>
+								<form id="general-form">
+									<div class='formResponse'></div>
+									<div class='form-content'>
+
+										<p>Let us know what you are looking for using the enquiry form below</p>
+										<input type="hidden" name="url" value="<?php echo $url;?>"/>
+										<input type="hidden" name="required" value="email,captcha"/>
+										<div class="option name-text">												
+											Name:<br/> 
+											<input class="wide" type="text" name="name" style="width: 190px;" />				
+										</div>
+										<div class="option email-text">							
+											Email(required): <br/>
+											<input class="wide" type="text" name="email" style="width: 190px" />
+										</div>
+										<div class="option phone-text">	
+											Phone: <br/>
+											<input class="wide" type="text" name="phone" style="width: 190px;" />
+										</div>
+										<div class="option comments-text">
+											Enquiry:<br/>
+											<textarea name="comments" style="height: 100px; width: 190px;" cols="20"></textarea>
+										</div>
+
+										<div class="option captcha-text">
+											Please help us avoid spam by entering the characters below: <br/>
+											<input type="hidden" id="general_captcha_challenge" name="captcha_challenge" class="captcha_challenge" value="">
+											<center><img id="general_captcha_image" class="captcha_image"/></center>
+											<input class="wide" type="text" name="captcha" value=""><br/>
+											<a href="javascript:getCaptcha('general_captcha_image', 'general_captcha_challenge');">Request a new image</a>
+										</div>
+										<script>
+										getCaptcha('general_captcha_image', 'general_captcha_challenge');</script>
+										<input class="button" type="button" name="send" value="Send Enquiry" onclick="javascript:submitContactForm('general-form')"/></p>
+									</div>
+								</form>
+
+							<!-- END CONTACT FORM -->
+							</div>
+						</div>
 					</div>
+				</div>
+			</div>
+		</section>
+	<?php 
+	$_REQUEST['page'] = "boats-used";
+	include $_SERVER['DOCUMENT_ROOT'].'/skin/footer.php';
+	?>
 	
-		</div>
-	</div>	
-	<div id="footer-wrap">
-		<div id="footer-columns">
-			<div class="col3">
-				<h3>Dublin</h3>
-				Malahide<br />
-				Dublin, Ireland<br />
-				Tel:(+353) 1 8061560<br />
-				<a href="mailto:sales&#64;bjmarine.net">sales&#64;bjmarine.net</a>
-			</div>
-			<div class="col3-center">
-				<h3>Belfast</h3>
-				Bangor Marina<br />
-				Co. Down, N. Ireland<br />
-				Tel:(+44) 2891 271434<br />
-				<a href="mailto:sales&#64;bjmarine.net">sales&#64;bjmarine.net</a>
-			</div>
-			<div class="col3">
-				<h3>Mediterranean</h3>
-				Grand Harbour Marina<br />
-				Malta<br />
-				Tel:(+356) 27019356<br />
-				<a href="mailto:sales&#64;bjmarine.net">sales&#64;bjmarine.net</a>
-			</div>
-		<!-- footer-columns ends -->
-		</div>
-	
-		<div id="footer-bottom">		
-			<p>&copy; 2010 <strong>BJ Marine Ltd.</strong> | 
-			Design by: <a href="mailto:denishoctor@gmail.com">Denis Hoctor</a> | 
-			Valid <a href="http://validator.w3.org/check?uri=referer">XHTML</a> | 
-			<a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>	
-   			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<a href="index.php">Home</a>&nbsp;|&nbsp;
-   			<a href="contact.html">Contact</a>
-   			</p>		
-		</div>	
-	<!-- footer ends-->
-	</div>
-<!-- wrap ends here -->
-</div>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-1206900-2");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
-
-</body>
-</html>
