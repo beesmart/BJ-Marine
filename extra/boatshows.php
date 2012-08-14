@@ -15,7 +15,7 @@
 						<dt>September 11 – 16 2012</dt>
 						<dd>Cannes Boat Show</dd>
 
-						<dt>September 16 – 25 2012</dt>
+						<dt>September 14 – 23 2012</dt>
 						<dd>Southampton Boat Show</dd>
 
 						<dt>September 27 – 30 2012</dt>
