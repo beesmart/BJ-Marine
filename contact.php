@@ -25,7 +25,7 @@
 					<div class="city">Malahide</div>
 					<div class="county">Co. Dublin</div>
 					<div class="country">Ireland</div>
-					<div class="tel">Tel: (+353) 1 8061560</div>
+					<div class="tel">(+353) 1 8061560</div>
 					<div class="tel-mobile">James: (+353) 87 7712223</div>
 					<a class="email" href="mailto:sales@bjmarine.net">sales@bjmarine.net</a>
 				</address>
@@ -64,9 +64,9 @@
 					<div class="region">119 St. Lawrence Street</div>
 					<div class="city">Vittorioso</div>
 					<div class="country-name">Malta</div>
-					<div>&nbsp;</div>
 					<div class="tel">(+356) 27019356</div>
 					<div class="tel-mobile">Alfred: (+356) 9999 9356</div>
+					<div class="tel-mobile">Joe: (+356) 7799 9356</div>
 					<a class="email" href="mailto:sales@bjmarine.net">sales@bjmarine.net</a>
 				</address>
 				<p>

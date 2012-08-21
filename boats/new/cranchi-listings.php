@@ -6,7 +6,8 @@
 ?>
 
 	<header class="page-header" id="overview">
-		<h2>New Cranchi Boats</h2>
+		<h2 class="float-left">New Cranchi Boats</h2>
+		<a class="float-right" target="_blank" href="<?php echo $brandUri; ?>">View in full window</a>
 	</header>
 
 	<section>
