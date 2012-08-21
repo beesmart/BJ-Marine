@@ -8,22 +8,22 @@
 			<ul class="bjqs">
 				<li>
 					<a href="/extra/boatshows.php">
-						<img src="img/slider/boatshows.jpg<?php echo $appVersion ?>" alt="Boat Show Slider Montage" title="Meet us at one of the many upcming boat shows around Europe" />
+						<img src="img/slider/boatshows.jpg?v2.0.5" alt="Boat Show Slider Montage" title="Meet us at one of the many upcming boat shows around Europe" />
 					</a>
 				</li>
 				<li>
 					<a href="/boats/used/index.php">
-						<img src="img/slider/brokerage.jpg<?php echo $appVersion ?>" alt="Brokerage and Used Boats Advert" title="Review our used boat stock or list your own with us" />
+						<img src="img/slider/brokerage.jpg?v2.0.5" alt="Brokerage and Used Boats Advert" title="Review our used boat stock or list your own with us" />
 					</a>
 				</li>
 				<li>
 					<a href="/boats/new/beneteau-listings.php">
-						<img src="img/slider/beneteau.jpg<?php echo $appVersion ?>" alt="Beneteau Listings Advert" title="Checkout the newest Beneteau boats" />
+						<img src="img/slider/beneteau.jpg?v2.0.5" alt="Beneteau Listings Advert" title="Checkout the newest Beneteau boats" />
 					</a>
 				</li>
 				<li>
 					<a href="/extra/winterstorageoffer.php">
-						<img src="img/slider/services.jpg<?php echo $appVersion ?>" alt="Boatyard Services Slider" title="See more about our winter storage offer" />
+						<img src="img/slider/services.jpg?v2.0.5" alt="Boatyard Services Slider" title="See more about our winter storage offer" />
 					</a>
 				</li>
 			</ul>
@@ -33,17 +33,17 @@
 	<div class="row-fluid feature-images">
 		<div class="span4">
 			<a href="boats/new/beneteau-listings.php">
-				<img src="img/brands/beneteau/yacht-squared.jpg<?php echo $appVersion ?>" title="New Beneteau Yachts" alt="Beneteau Yacht" />
+				<img src="img/brands/beneteau/yacht-squared.jpg?v2.0.5" title="New Beneteau Yachts" alt="Beneteau Yacht" />
 			</a>
 		</div>
 		<div class="span4">
 			<a href="boats/new/beneteau-listings.php">
-				<img src="img/brands/beneteau/power-squared.jpg<?php echo $appVersion ?>" title="New Beneteau Power Boats" alt="Beneteau Power Boat" />
+				<img src="img/brands/beneteau/power-squared.jpg?v2.0.5" title="New Beneteau Power Boats" alt="Beneteau Power Boat" />
 			</a>
 		</div>
 		<div class="span4">
 			<a href="boats/new/fairline-listings.php">
-				<img src="img/brands/fairline/power-squared.jpg<?php echo $appVersion ?>" title="New Fairline Power Boats" alt="Fairline Power Boat" />
+				<img src="img/brands/fairline/power-squared.jpg?v2.0.5" title="New Fairline Power Boats" alt="Fairline Power Boat" />
 			</a>
 		</div>
 	</div>
@@ -51,17 +51,17 @@
 	<div class="row-fluid feature-images">
 		<div class="span4">
 			<a href="boats/new/searay-listings.php">
-				<img src="img/brands/searay/power-squared.jpg<?php echo $appVersion ?>" title="New SeaRay Power Boats" alt="SeaRay Power Boat" />
+				<img src="img/brands/searay/power-squared.jpg?v2.0.5" title="New SeaRay Power Boats" alt="SeaRay Power Boat" />
 			</a>
 		</div>
 		<div class="span4">
 			<a href="boats/new/cranchi-listings.php">
-				<img src="img/brands/cranchi/power-squared.jpg<?php echo $appVersion ?>" title="New Cranchi Power Boats" alt="Cranchi Power Boat" />
+				<img src="img/brands/cranchi/power-squared.jpg?v2.0.5" title="New Cranchi Power Boats" alt="Cranchi Power Boat" />
 			</a>
 		</div>
 		<div class="span4">
 			<a href="boats/new/greenline-listings.php">
-				<img src="img/brands/greenline/power-squared.jpg<?php echo $appVersion ?>" title="New Greenline Power Boats" alt="Greenline Power Boat" />
+				<img src="img/brands/greenline/power-squared.jpg?v2.0.5" title="New Greenline Power Boats" alt="Greenline Power Boat" />
 			</a>
 		</div>
 	</div>
@@ -73,7 +73,7 @@
 					Welcome to BJ Marine, the leading <a href="boats/new/index.php">new boat sales</a> and <a href="boats/used/index.php">used boat sales</a> specialists. We have a full range of new sailing boats, used sailing yachts, new power boats and used motor boats for sale.
 				</p>
 				<p>
-					With our office network in <a href="about/offices/dublin.php">Dublin</a>, <a href="about/offices/belfast.php">Belfast</a> and the <a href="about/offices/mediterranean.php">Mediterranean</a> we can be your one stop shop for expert help whether you are buying a boat or selling.
+					With our office network in <a href="about/offices/dublin.php">Ireland</a>, <a href="about/offices/belfast.php">UK</a> and the <a href="about/offices/mediterranean.php">Mediterranean </a>we can be your one stop shop for expert help whether you are buying a boat or selling contact us today.
 				</p>
 			</div>
 			<div class="span3 text-center">

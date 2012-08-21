@@ -26,7 +26,7 @@
 					<div class="county">Co. Dublin</div>
 					<div class="country">Ireland</div>
 					<div class="tel">Tel: (+353) 1 8061560</div>
-					<div class="tel-mobile">Jame: (+353) 1 8061560</div>
+					<div class="tel-mobile">James: (+353) 87 7712223</div>
 					<a class="email" href="mailto:sales@bjmarine.net">sales@bjmarine.net</a>
 				</address>
 				<p>
@@ -61,7 +61,7 @@
 				<address>
 					<div class="locality"><a href="/about/offices/mediterranean.php">Mediterranean</a></div>
 					<div class="company-name">BJ Marine Ltd.</div>
-					<div class="region">Grand Harbour Marina</div>
+					<div class="region">119 St. Lawrence Street</div>
 					<div class="city">Vittorioso</div>
 					<div class="country-name">Malta</div>
 					<div>&nbsp;</div>

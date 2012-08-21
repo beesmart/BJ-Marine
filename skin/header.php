@@ -5,7 +5,7 @@
 	$_REQUEST['title'] 			= "BJ Marine - Power Boats, Sail/Yachts for Sale and Brokerage";
 	$_REQUEST['robots'] 		= "index,follow";
 
-	$appVersion = "?v2.1.4"
+	$appVersion = "?v2.1.5"
 ?>
 
 <!doctype html>
@@ -27,7 +27,7 @@
 
 	<meta name="viewport" content="width=930">
 
-	<link href="../css/style.css<?php echo $appVersion ?>" rel="stylesheet" type="text/css" />
+	<link href="/css/style.css<?php echo $appVersion ?>" rel="stylesheet" type="text/css" />
 </head>
 <body class="<?php echo $_REQUEST['page']; ?>">
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->

@@ -20,7 +20,7 @@ body {
   overflow-y: scroll;
 }
 
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } 
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 /* Custom Bootstrap / Bootswatch overrides */
 .container{ position: relative; }
 
@@ -48,7 +48,6 @@ body {
 	background: -o-linear-gradient(top,  @dark-blue 0%,@dark-blue-end-gradient 40%,@dark-blue-end-gradient 60%,@dark-blue 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  @dark-blue 0%,@dark-blue-end-gradient 40%,@dark-blue-end-gradient 60%,@dark-blue 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  @dark-blue 0%,@dark-blue-end-gradient 40%,@dark-blue-end-gradient 60%,@dark-blue 100%); /* W3C */
-  	filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr='@{dark-blue}', endColorstr='@{dark-blue-end-gradient}', GradientType=0)";
 }
 .navbar .nav-collapse .nav > li > a, .navbar .nav > .active > a, .navbar .nav > .active > a:hover  {
 	color: @soft-grey;
@@ -71,7 +70,6 @@ right: 0;
 }
 	.topnav .navbar-inner {
 		background: @light-blue-bg;
-  		filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr='@{light-blue-bg}', endColorstr='@{light-blue-bg}', GradientType=0)";
 		border-radius: 0 0 3px 3px;
 		border-top-width: 0;
 	}
@@ -127,7 +125,7 @@ right: 0;
 		display:none;
 	}
 /* Body Container (.main) */
-.main > section{margin-bottom:36px;overflow:hidden;}
+.main > section{margin-bottom:48px;overflow:hidden;}
 
 .brand-logos img{margin-bottom:12px;}
 
@@ -155,7 +153,7 @@ right: 0;
 
 /* Slider plugin Overrides */
 .slider{
-	margin-bottom: 48px;
+	margin-bottom: 12px;
 	position:relative;
 	height:300px;
 	width:900px;

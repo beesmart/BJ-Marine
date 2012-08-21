@@ -69,5 +69,29 @@
 		</div>
 	</section>
 
+	<section id="greenline">
+		<h2><a href="boats/new/fairline-listing.php">Greenline</a></h2>
+		<div class="row-fluid">
+			<div class="span9">
+				<p>Greenline The Hybrid is the first true hybrid yacht and it is the start of a new era in responsible boating. It is all about the Environment, Efficiency and You. It has been designed and built to maximise your well being on board and your enjoyment during a relaxing cruise. It uses up to four times less fossil fuel in a year than a planing powerboat and it is completely emission free in electric mode.</p>
+			</div>
+			<div class="span3">
+				<a href="/boats/new/greenline-listings.php"><img class="brand-logo" src="/img/brands/greenline/logo.jpg" title="Greenline" alt="Greenline Logo" /></a>
+			</div>
+		</div>
+	</section>
+
+	<section id="cranchi">
+		<h2><a href="boats/new/fairline-listing.php">Cranchi</a></h2>
+		<div class="row-fluid">
+			<div class="span9">
+				<p>Behind the Cranchi trademark there is one of the oldest and most solid Italian nautical companies, whose origins stretch right back to 1870. This tradition that is now led by the 5th generation is renowned for their highly attractive Italian design and styling and is now a well known producer of luxury powerboats. There are two strict family rules in fact: reinvest the profits to create a future, increasing the quality of the work environments and the quality of the product, and a single figure in overall charge.</p>
+			</div>
+			<div class="span3">
+				<a href="/boats/new/cranchi-listings.php"><img class="brand-logo" src="/img/brands/cranchi/logo.jpg" title="Cranchi" alt="Cranchi Logo" /></a>
+			</div>
+		</div>
+	</section>
+
 <?php include $_SERVER['DOCUMENT_ROOT'].'/skin/footer.php'; ?>
 
