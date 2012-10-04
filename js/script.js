@@ -30,7 +30,8 @@ $(function() {
 		'width' : 940,
 		'animation' : 'slide',
 		'nextText': '<i class="icon-chevron-right icon-black"></i>',
-		'prevText': '<i class="icon-chevron-left icon-black"></i>'
+		'prevText': '<i class="icon-chevron-left icon-black"></i>',
+		'useCaptions': false
 	});
 });
 

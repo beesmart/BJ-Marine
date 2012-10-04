@@ -7,8 +7,8 @@
 		<div class="span12 slider">
 			<ul class="bjqs">
 				<li>
-					<a href="/extra/boatshows.php">
-						<img src="img/slider/boatshows.jpg?v2.0.5" alt="Boat Show Slider Montage" title="Meet us at one of the many upcming boat shows around Europe" />
+					<a href="/extra/greenline.php">
+						<img src="img/slider/greenline.jpg?v2.0.5" alt="Greenline Hybrid Advert" title="Checkout the latest Hybrid Boats from Greenline" />
 					</a>
 				</li>
 				<li>
@@ -17,9 +17,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="/boats/new/beneteau-listings.php">
-						<img src="img/slider/beneteau.jpg?v2.0.5" alt="Beneteau Listings Advert" title="Checkout the newest Beneteau boats" />
-					</a>
+					<img src="img/slider/beneteau-sea-trials.jpg?v2.0.5" alt="Beneteau Sea Trial Advert" title="Checkout the newest Beneteau boats at our ocean trial" />
 				</li>
 				<li>
 					<a href="/extra/winterstorageoffer.php">
