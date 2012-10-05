@@ -5,7 +5,7 @@
 	$_REQUEST['title'] 			= "BJ Marine - Power Boats, Sail/Yachts for Sale and Brokerage";
 	$_REQUEST['robots'] 		= "index,follow";
 
-	$appVersion = "?v2.1.5"
+	$appVersion = "?v2.2.0"
 ?>
 
 <!doctype html>

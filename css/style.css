@@ -2007,7 +2007,7 @@ table .span24 {
 .open {
   *z-index: 1000;
 }
-.open  > .dropdown-menu {
+.open > .dropdown-menu {
   display: block;
 }
 .pull-right > .dropdown-menu {
@@ -4444,6 +4444,9 @@ body {
   background: -ms-linear-gradient(top, #1d4986 0%, #1d5a86 40%, #1d5a86 60%, #1d4986 100%);
   /* IE10+ */
 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1D4986', endColorstr='#1D5A86', GradientType=0);
+  /* IE8 */
+
   background: linear-gradient(to bottom, #1d4986 0%, #1d5a86 40%, #1d5a86 60%, #1d4986 100%);
   /* W3C */
 
@@ -4474,6 +4477,7 @@ body {
 }
 .topnav .navbar-inner {
   background: #459fd1;
+  filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
   border-radius: 0 0 3px 3px;
   border-top-width: 0;
 }
