@@ -1,5 +1,5 @@
 <?php 
-	$_REQUEST['page'] = "news-boatshows";
+	$_REQUEST['page'] = "promo-greenline";
 	include $_SERVER['DOCUMENT_ROOT'].'/skin/header.php'; 
 ?>
 	<img src="/img/brands/greenline/page1.jpg" alt="Greenline Selling Points" />

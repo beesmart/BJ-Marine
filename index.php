@@ -8,20 +8,22 @@
 			<ul class="bjqs">
 				<li>
 					<a href="/extra/greenline.php">
-						<img src="img/slider/greenline.jpg?v2.0.5" alt="Greenline Hybrid Advert" title="Checkout the latest Hybrid Boats from Greenline" />
+						<img src="img/slider/greenline.jpg<?php echo $appVersion ?>" alt="Greenline Hybrid Advert" title="Checkout the latest Hybrid Boats from Greenline" />
+					</a>
+				</li>
+				<li>
+					<a href="/extra/beneteau-sea-trials.php">
+						<img src="img/slider/beneteau-sea-trials.jpg<?php echo $appVersion ?>" alt="Beneteau Sea Trial Advert" title="Checkout the newest Beneteau boats at our ocean trial" />
 					</a>
 				</li>
 				<li>
 					<a href="/boats/used/index.php">
-						<img src="img/slider/brokerage.jpg?v2.0.5" alt="Brokerage and Used Boats Advert" title="Review our used boat stock or list your own with us" />
+						<img src="img/slider/brokerage.jpg<?php echo $appVersion ?>" alt="Brokerage and Used Boats Advert" title="Review our used boat stock or list your own with us" />
 					</a>
 				</li>
 				<li>
-					<img src="img/slider/beneteau-sea-trials.jpg?v2.0.5" alt="Beneteau Sea Trial Advert" title="Checkout the newest Beneteau boats at our ocean trial" />
-				</li>
-				<li>
 					<a href="/extra/winterstorageoffer.php">
-						<img src="img/slider/services.jpg?v2.0.5" alt="Boatyard Services Slider" title="See more about our winter storage offer" />
+						<img src="img/slider/services.jpg<?php echo $appVersion ?>" alt="Boatyard Services Slider" title="See more about our winter storage offer" />
 					</a>
 				</li>
 			</ul>
@@ -31,17 +33,17 @@
 	<div class="row-fluid feature-images">
 		<div class="span4">
 			<a href="boats/new/beneteau-listings.php">
-				<img src="img/brands/beneteau/yacht-squared.jpg?v2.0.5" title="New Beneteau Yachts" alt="Beneteau Yacht" />
+				<img src="img/brands/beneteau/yacht-squared.jpg<?php echo $appVersion ?>" title="New Beneteau Yachts" alt="Beneteau Yacht" />
 			</a>
 		</div>
 		<div class="span4">
 			<a href="boats/new/beneteau-listings.php">
-				<img src="img/brands/beneteau/power-squared.jpg?v2.0.5" title="New Beneteau Power Boats" alt="Beneteau Power Boat" />
+				<img src="img/brands/beneteau/power-squared.jpg<?php echo $appVersion ?>" title="New Beneteau Power Boats" alt="Beneteau Power Boat" />
 			</a>
 		</div>
 		<div class="span4">
 			<a href="boats/new/fairline-listings.php">
-				<img src="img/brands/fairline/power-squared.jpg?v2.0.5" title="New Fairline Power Boats" alt="Fairline Power Boat" />
+				<img src="img/brands/fairline/power-squared.jpg<?php echo $appVersion ?>" title="New Fairline Power Boats" alt="Fairline Power Boat" />
 			</a>
 		</div>
 	</div>
@@ -49,17 +51,17 @@
 	<div class="row-fluid feature-images">
 		<div class="span4">
 			<a href="boats/new/searay-listings.php">
-				<img src="img/brands/searay/power-squared.jpg?v2.0.5" title="New SeaRay Power Boats" alt="SeaRay Power Boat" />
+				<img src="img/brands/searay/power-squared.jpg<?php echo $appVersion ?>" title="New SeaRay Power Boats" alt="SeaRay Power Boat" />
 			</a>
 		</div>
 		<div class="span4">
 			<a href="boats/new/cranchi-listings.php">
-				<img src="img/brands/cranchi/power-squared.jpg?v2.0.5" title="New Cranchi Power Boats" alt="Cranchi Power Boat" />
+				<img src="img/brands/cranchi/power-squared.jpg<?php echo $appVersion ?>" title="New Cranchi Power Boats" alt="Cranchi Power Boat" />
 			</a>
 		</div>
 		<div class="span4">
 			<a href="boats/new/greenline-listings.php">
-				<img src="img/brands/greenline/power-squared.jpg?v2.0.5" title="New Greenline Power Boats" alt="Greenline Power Boat" />
+				<img src="img/brands/greenline/power-squared.jpg<?php echo $appVersion ?>" title="New Greenline Power Boats" alt="Greenline Power Boat" />
 			</a>
 		</div>
 	</div>

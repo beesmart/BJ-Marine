@@ -1,5 +1,5 @@
 <?php 
-	$_REQUEST['page'] = "news-boatshows";
+	$_REQUEST['page'] = "promo-boatshows";
 	include $_SERVER['DOCUMENT_ROOT'].'/skin/header.php'; 
 ?>
 	<div class="promo-page">

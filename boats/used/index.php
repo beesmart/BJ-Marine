@@ -96,7 +96,7 @@ if (@$_GET["sort"] && $_GET["sort"] != ""){
 	$_REQUEST['Keywords'] 		= "Boats, Power, Sail, Marina, Berths, Malahide, Dublin, Bangor, Cork, Malta, Brokerage, Used Boats, Yachts";
 	$_REQUEST['title'] 			= "BJ Marine - Power Boats, Sail/Yachts for Sale and Brokerage";
 
-	$appVersion = "?v2.1.3";
+	$appVersion = "?v2.3.0";
 ?>
 
 <!doctype html>

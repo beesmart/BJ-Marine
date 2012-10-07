@@ -33,20 +33,21 @@
 	</footer>
 
 	</div> <!-- /container -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 
-<script src="/js/plugins.js<?php echo $appVersion ?>"></script>
-<script src="/js/script.js<?php echo $appVersion ?>"></script>
-<!-- end scripts-->
+	<script src="/js/plugins.js<?php echo $appVersion ?>"></script>
+	<script src="/js/script.js<?php echo $appVersion ?>"></script>
+	<!-- end scripts-->
 
-<?php if(strpos($_SERVER['HTTP_HOST'],'new.bjmarine.dev') === false) { ?>
-<script>
-	var _gaq=[['_setAccount','UA-1206900-2'],['_trackPageview']];
-	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-	s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
-<?php } ?>
+	<?php if(strpos($_SERVER['HTTP_HOST'],'www.bjmarine.dev') === false) { ?>
+	<script>
+		var _gaq=[['_setAccount','UA-1206900-2'],['_trackPageview']];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+	<?php } ?>
 </body>
 </html>
