@@ -12,13 +12,13 @@
 					</a>
 				</li>
 				<li>
-					<a href="/extra/beneteau-sea-trials.php">
-						<img src="img/slider/beneteau-sea-trials.jpg<?php echo $appVersion ?>" alt="Beneteau Sea Trial Advert" title="Checkout the newest Beneteau boats at our ocean trial" />
+					<a href="/boats/brokerage/index.php">
+						<img src="img/slider/sellyourboat.jpg<?php echo $appVersion ?>" alt="Sell your Boat/Brokerage Advert" title="Contact us today to sell your boat" />
 					</a>
 				</li>
 				<li>
 					<a href="/boats/used/index.php">
-						<img src="img/slider/brokerage.jpg<?php echo $appVersion ?>" alt="Brokerage and Used Boats Advert" title="Review our used boat stock or list your own with us" />
+						<img src="img/slider/brokerage.jpg<?php echo $appVersion ?>" alt="Used Boats Advert" title="Review our used boat stock" />
 					</a>
 				</li>
 				<li>
