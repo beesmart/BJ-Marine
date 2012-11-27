@@ -1,6 +1,6 @@
-<?php 
+<?php
 	$_REQUEST['page'] = "promo-boatshows";
-	include $_SERVER['DOCUMENT_ROOT'].'/skin/header.php'; 
+	include $_SERVER['DOCUMENT_ROOT'].'/skin/header.php';
 ?>
 	<div class="promo-page">
 		<div class="offset6 hero-unit">
@@ -12,23 +12,14 @@
 					<p><a class="important" href="/contact.php">Contact us</a> for tickets</p>
 
 					<dl class="dl-horizontal">
-						<dt>September 11 – 16 2012</dt>
-						<dd>Cannes Boat Show</dd>
-
-						<dt>September 14 – 23 2012</dt>
-						<dd>Southampton Boat Show</dd>
-
-						<dt>September 27 – 30 2012</dt>
-						<dd>Malta Boat Show</dd>
-
-						<dt>December 7 – 16 2012</dt>
+						<dt>December 8 - 16 2012</dt>
 						<dd>Paris Boat Show</dd>
 
-						<dt>January 12 – 20 2013</dt>
+						<dt>January 12 - 20 2013</dt>
 						<dd>London Boat Show</dd>
 
-						<dt>January 19 – 27 2013</dt>
-						<dd>Düsseldorf Boat Show</dd>
+						<dt>January 19 - 27 2013</dt>
+						<dd>Dusseldorf Boat Show</dd>
 					</dl>
 				</div>
 			</div>
