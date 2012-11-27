@@ -1,11 +1,16 @@
-<?php 
+<?php
 	$_REQUEST['page'] = "home";
-	include $_SERVER['DOCUMENT_ROOT'].'/skin/header.php'; 
+	include $_SERVER['DOCUMENT_ROOT'].'/skin/header.php';
 ?>
 
 	<div class="row">
 		<div class="span12 slider">
 			<ul class="bjqs">
+				<li>
+					<a href="/extra/boatshows.php">
+						<img src="img/slider/boatshows.jpg<?php echo $appVersion ?>" alt="Upcoming Boat Shows Slider" title="Checkout the upcoming boat shows around Europe" />
+					</a>
+				</li>
 				<li>
 					<a href="/extra/greenline.php">
 						<img src="img/slider/greenline.jpg<?php echo $appVersion ?>" alt="Greenline Hybrid Advert" title="Checkout the latest Hybrid Boats from Greenline" />
@@ -19,11 +24,6 @@
 				<li>
 					<a href="/boats/used/index.php">
 						<img src="img/slider/brokerage.jpg<?php echo $appVersion ?>" alt="Used Boats Advert" title="Review our used boat stock" />
-					</a>
-				</li>
-				<li>
-					<a href="/extra/winterstorageoffer.php">
-						<img src="img/slider/services.jpg<?php echo $appVersion ?>" alt="Boatyard Services Slider" title="See more about our winter storage offer" />
 					</a>
 				</li>
 			</ul>
