@@ -24,14 +24,15 @@ $(function() {
 		return uri.replace('.' + ext, newExt);
 	}
 
-	/* Adds Sliderjs.org widget to .slider */
+	/* Adds http://www.basic-slider.com widget to .slider */
 	$('.slider').bjqs({
 		'height' : 300,
 		'width' : 940,
 		'animation' : 'slide',
 		'nextText': '<i class="icon-chevron-right icon-black"></i>',
 		'prevText': '<i class="icon-chevron-left icon-black"></i>',
-		'useCaptions': false
+		'useCaptions': false,
+		'randomstart': true
 	});
 });
 

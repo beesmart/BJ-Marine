@@ -17,13 +17,13 @@
 					</a>
 				</li>
 				<li>
-					<a href="/boats/brokerage/index.php">
-						<img src="img/slider/sellyourboat.jpg<?php echo $appVersion ?>" alt="Sell your Boat/Brokerage Advert" title="Contact us today to sell your boat" />
+					<a href="/boats/used/index.php">
+						<img src="img/slider/sellyourboat.jpg<?php echo $appVersion ?>" alt="Used Boats Advert" title="Review our used boat stock" />
 					</a>
 				</li>
 				<li>
-					<a href="/boats/used/index.php">
-						<img src="img/slider/brokerage.jpg<?php echo $appVersion ?>" alt="Used Boats Advert" title="Review our used boat stock" />
+					<a href="/boats/brokerage/index.php">
+						<img src="img/slider/brokerage.jpg<?php echo $appVersion ?>" alt="Sell your Boat/Brokerage Advert" title="Contact us today to sell your boat" />
 					</a>
 				</li>
 			</ul>
