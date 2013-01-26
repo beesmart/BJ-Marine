@@ -7,8 +7,8 @@
 		<div class="span12 slider">
 			<ul class="bjqs">
 				<li>
-					<a href="/extra/boatshows.php">
-						<img src="img/slider/boatshows.jpg<?php echo $appVersion ?>" alt="Upcoming Boat Shows Slider" title="Checkout the upcoming boat shows around Europe" />
+					<a href="/boats/new/beneteau-listings.php">
+						<img src="img/slider/beneteau-new.jpg<?php echo $appVersion ?>" alt="Beneteau Barracuda 9" title="Checkout the latest 2013 rang from Beneteau" />
 					</a>
 				</li>
 				<li>
