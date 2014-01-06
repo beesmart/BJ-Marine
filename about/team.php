@@ -36,7 +36,7 @@
 		<div class="row-fluid">
 			<div class="span9">
 				<hgroup>
-					<h3>James Kirwan - Sales, Dublin</h3>
+					<h3>James Kirwan - Group Sales Manager, Dublin</h3>
 					<p><strong>Mobile: +353 87 771 2223</strong></p>
 				</hgroup>
 				<p>James is a qualified ISA sailing instructor and a member of Royal St. George Yacht Club, Dun Laoghaire where he is a prominent member of the sailing scene for many years. James says he has been ‘around boats all his life’ and feels his experience allows him identify what is needed by the customer to satisfy their boating requirements. James works to make getting on the water easy for everyone.</p>
@@ -64,33 +64,17 @@
 	</section>
 
 
-	<section id="alfred-caruana">
-		<div class="row-fluid">
-			<div class="span9">
-				<hgroup>
-					<h3>Alfred Caruana – Sales, Mediterranean</h3>
-					<p><strong>Mobile: +356 99999356</strong></p>
-				</hgroup>
-				<p>Alfred was born in Malta and graduated in Finance and Marketing. His ancestors were Marine Engineers and Merchant Captains dating back to the 1700s which made him realize that he had the sea in his blood. He was founder member of local sailing clubs and served as Commodore for several years; he is a qualified sailing instructor RYA certified and introduced sailing to youth groups and facilitates sailing to all as a sport and pastime.Having been involved in sailing for the past 30 years Alfred is considered a reference in sailing in Malta. He joined the BJ Marine team a few years ago and is now running the Mediterranean Office which gives him the opportunity to guide clients to experience fully the pleasures of the sea.</p>
-			</div>
-			<div class="span3">
-				<img src="/img/staff/alfred-caruana.jpg" title="Alfred Caruana – Sales, Mediterranean" alt="Alfred Caruana" >
-			</div>
-		</div>
-	</section>
-
-
 	<section id="joe-aquilina">
 		<div class="row-fluid">
-			<div class="span3">
-				<img src="/img/staff/joe-aquilina.jpg" title="Joe Aquilina  Sales, Malta" alt="Joe Aquilina" />
-			</div>
 			<div class="span9">
 				<hgroup>
 					<h3>Joe Aquilina  Sales, Malta</h3>
-					<p><strong>Mobile:  + 356 77999356</strong></p>
+					<p><strong>Mobile:  + 356 99999356</strong></p>
 				</hgroup>
 				<p>Joe was born beside the sea and has lived there all his life. His first experiences of sailing were fishing trips as a young boy. These experiences have given Joe a lifelong passion for all things boating. His career began in sales and now continues at BJ Marine’s Mediterranean office where Joe combines his passion with his profession selling boats and passing on his love of the sea.</p>
+			</div>
+			<div class="span3">
+				<img src="/img/staff/joe-aquilina.jpg" title="Joe Aquilina  Sales, Malta" alt="Joe Aquilina" />
 			</div>
 		</div>
 	</section>
